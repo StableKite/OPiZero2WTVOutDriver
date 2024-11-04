@@ -1,0 +1,3 @@
+/home/orangepi/TunerProject/build/CMakeFiles/Tuner.dir
+/home/orangepi/TunerProject/build/CMakeFiles/edit_cache.dir
+/home/orangepi/TunerProject/build/CMakeFiles/rebuild_cache.dir
