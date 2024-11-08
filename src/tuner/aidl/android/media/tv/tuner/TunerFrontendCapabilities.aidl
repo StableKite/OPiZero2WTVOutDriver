@@ -37,49 +37,14 @@ import android.media.tv.tuner.TunerFrontendIsdbtCapabilities;
  *
  * {@hide}
  */
-union TunerFrontendCapabilities {
-    /**
-     * Analog Frontend Capabilities
-     */
+parcelable TunerFrontendCapabilities {
     TunerFrontendAnalogCapabilities analogCaps;
-
-    /**
-     * ATSC Frontend Capabilities
-     */
     TunerFrontendAtscCapabilities atscCaps;
-
-    /**
-     * ATSC3 Frontend Capabilities
-     */
     TunerFrontendAtsc3Capabilities atsc3Caps;
-
-    /**
-     * Cable Frontend Capabilities
-     */
     TunerFrontendCableCapabilities cableCaps;
-
-    /**
-     * DVBS Frontend Capabilities
-     */
     TunerFrontendDvbsCapabilities dvbsCaps;
-
-    /**
-     * DVBT Frontend Capabilities
-     */
     TunerFrontendDvbtCapabilities dvbtCaps;
-
-    /**
-     * ISDB-S Frontend Capabilities
-     */
     TunerFrontendIsdbsCapabilities isdbsCaps;
-
-    /**
-     * ISDB-S3 Frontend Capabilities
-     */
     TunerFrontendIsdbs3Capabilities isdbs3Caps;
-
-    /**
-     * ISDB-T Frontend Capabilities
-     */
     TunerFrontendIsdbtCapabilities isdbtCaps;
 }

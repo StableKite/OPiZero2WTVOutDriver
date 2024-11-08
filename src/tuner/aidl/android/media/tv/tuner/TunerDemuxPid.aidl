@@ -21,8 +21,7 @@ package android.media.tv.tuner;
  *
  * {@hide}
  */
-union TunerDemuxPid {
+parcelable TunerDemuxPid {
     char tPid;
-
     char mmtpPid;
 }

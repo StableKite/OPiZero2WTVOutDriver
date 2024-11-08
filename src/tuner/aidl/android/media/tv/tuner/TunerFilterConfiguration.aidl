@@ -27,14 +27,10 @@ import android.media.tv.tuner.TunerFilterTsConfiguration;
  *
  * {@hide}
  */
-union TunerFilterConfiguration {
+parcelable TunerFilterConfiguration {
     TunerFilterTsConfiguration ts;
-
     TunerFilterMmtpConfiguration mmtp;
-
     TunerFilterIpConfiguration ip;
-
     TunerFilterTlvConfiguration tlv;
-
     TunerFilterAlpConfiguration alp;
 }

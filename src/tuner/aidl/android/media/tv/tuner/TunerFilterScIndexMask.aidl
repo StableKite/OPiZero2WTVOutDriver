@@ -21,8 +21,7 @@ package android.media.tv.tuner;
  *
  * {@hide}
  */
-union TunerFilterScIndexMask {
+parcelable TunerFilterScIndexMask {
     int sc;
-
     int scHevc;
 }

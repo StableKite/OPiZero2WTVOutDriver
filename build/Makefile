@@ -129,12 +129,25 @@ Tuner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/build
 .PHONY : Tuner/fast
 
+#=============================================================================
+# Target rules for targets named TunerExec
+
+# Build rule for target.
+TunerExec: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TunerExec
+.PHONY : TunerExec
+
+# fast build rule for target.
+TunerExec/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/build
+.PHONY : TunerExec/fast
+
 src/Demux.o: src/Demux.cpp.o
 .PHONY : src/Demux.o
 
 # target to build an object file
 src/Demux.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Demux.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Demux.cpp.o
 .PHONY : src/Demux.cpp.o
 
 src/Demux.i: src/Demux.cpp.i
@@ -142,7 +155,7 @@ src/Demux.i: src/Demux.cpp.i
 
 # target to preprocess a source file
 src/Demux.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Demux.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Demux.cpp.i
 .PHONY : src/Demux.cpp.i
 
 src/Demux.s: src/Demux.cpp.s
@@ -150,7 +163,7 @@ src/Demux.s: src/Demux.cpp.s
 
 # target to generate assembly for a file
 src/Demux.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Demux.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Demux.cpp.s
 .PHONY : src/Demux.cpp.s
 
 src/Descrambler.o: src/Descrambler.cpp.o
@@ -158,7 +171,7 @@ src/Descrambler.o: src/Descrambler.cpp.o
 
 # target to build an object file
 src/Descrambler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Descrambler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o
 .PHONY : src/Descrambler.cpp.o
 
 src/Descrambler.i: src/Descrambler.cpp.i
@@ -166,7 +179,7 @@ src/Descrambler.i: src/Descrambler.cpp.i
 
 # target to preprocess a source file
 src/Descrambler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Descrambler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Descrambler.cpp.i
 .PHONY : src/Descrambler.cpp.i
 
 src/Descrambler.s: src/Descrambler.cpp.s
@@ -174,7 +187,7 @@ src/Descrambler.s: src/Descrambler.cpp.s
 
 # target to generate assembly for a file
 src/Descrambler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Descrambler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Descrambler.cpp.s
 .PHONY : src/Descrambler.cpp.s
 
 src/Dvr.o: src/Dvr.cpp.o
@@ -182,7 +195,7 @@ src/Dvr.o: src/Dvr.cpp.o
 
 # target to build an object file
 src/Dvr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Dvr.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Dvr.cpp.o
 .PHONY : src/Dvr.cpp.o
 
 src/Dvr.i: src/Dvr.cpp.i
@@ -190,7 +203,7 @@ src/Dvr.i: src/Dvr.cpp.i
 
 # target to preprocess a source file
 src/Dvr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Dvr.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Dvr.cpp.i
 .PHONY : src/Dvr.cpp.i
 
 src/Dvr.s: src/Dvr.cpp.s
@@ -198,7 +211,7 @@ src/Dvr.s: src/Dvr.cpp.s
 
 # target to generate assembly for a file
 src/Dvr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Dvr.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Dvr.cpp.s
 .PHONY : src/Dvr.cpp.s
 
 src/Filter.o: src/Filter.cpp.o
@@ -206,7 +219,7 @@ src/Filter.o: src/Filter.cpp.o
 
 # target to build an object file
 src/Filter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Filter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Filter.cpp.o
 .PHONY : src/Filter.cpp.o
 
 src/Filter.i: src/Filter.cpp.i
@@ -214,7 +227,7 @@ src/Filter.i: src/Filter.cpp.i
 
 # target to preprocess a source file
 src/Filter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Filter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Filter.cpp.i
 .PHONY : src/Filter.cpp.i
 
 src/Filter.s: src/Filter.cpp.s
@@ -222,7 +235,7 @@ src/Filter.s: src/Filter.cpp.s
 
 # target to generate assembly for a file
 src/Filter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Filter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Filter.cpp.s
 .PHONY : src/Filter.cpp.s
 
 src/Frontend.o: src/Frontend.cpp.o
@@ -230,7 +243,7 @@ src/Frontend.o: src/Frontend.cpp.o
 
 # target to build an object file
 src/Frontend.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Frontend.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Frontend.cpp.o
 .PHONY : src/Frontend.cpp.o
 
 src/Frontend.i: src/Frontend.cpp.i
@@ -238,7 +251,7 @@ src/Frontend.i: src/Frontend.cpp.i
 
 # target to preprocess a source file
 src/Frontend.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Frontend.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Frontend.cpp.i
 .PHONY : src/Frontend.cpp.i
 
 src/Frontend.s: src/Frontend.cpp.s
@@ -246,7 +259,7 @@ src/Frontend.s: src/Frontend.cpp.s
 
 # target to generate assembly for a file
 src/Frontend.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Frontend.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Frontend.cpp.s
 .PHONY : src/Frontend.cpp.s
 
 src/Lnb.o: src/Lnb.cpp.o
@@ -254,7 +267,7 @@ src/Lnb.o: src/Lnb.cpp.o
 
 # target to build an object file
 src/Lnb.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Lnb.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Lnb.cpp.o
 .PHONY : src/Lnb.cpp.o
 
 src/Lnb.i: src/Lnb.cpp.i
@@ -262,7 +275,7 @@ src/Lnb.i: src/Lnb.cpp.i
 
 # target to preprocess a source file
 src/Lnb.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Lnb.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Lnb.cpp.i
 .PHONY : src/Lnb.cpp.i
 
 src/Lnb.s: src/Lnb.cpp.s
@@ -270,7 +283,7 @@ src/Lnb.s: src/Lnb.cpp.s
 
 # target to generate assembly for a file
 src/Lnb.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Lnb.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Lnb.cpp.s
 .PHONY : src/Lnb.cpp.s
 
 src/TimeFilter.o: src/TimeFilter.cpp.o
@@ -278,7 +291,7 @@ src/TimeFilter.o: src/TimeFilter.cpp.o
 
 # target to build an object file
 src/TimeFilter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o
 .PHONY : src/TimeFilter.cpp.o
 
 src/TimeFilter.i: src/TimeFilter.cpp.i
@@ -286,7 +299,7 @@ src/TimeFilter.i: src/TimeFilter.cpp.i
 
 # target to preprocess a source file
 src/TimeFilter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/TimeFilter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.i
 .PHONY : src/TimeFilter.cpp.i
 
 src/TimeFilter.s: src/TimeFilter.cpp.s
@@ -294,7 +307,7 @@ src/TimeFilter.s: src/TimeFilter.cpp.s
 
 # target to generate assembly for a file
 src/TimeFilter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/TimeFilter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.s
 .PHONY : src/TimeFilter.cpp.s
 
 src/Tuner.o: src/Tuner.cpp.o
@@ -302,7 +315,7 @@ src/Tuner.o: src/Tuner.cpp.o
 
 # target to build an object file
 src/Tuner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Tuner.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Tuner.cpp.o
 .PHONY : src/Tuner.cpp.o
 
 src/Tuner.i: src/Tuner.cpp.i
@@ -310,7 +323,7 @@ src/Tuner.i: src/Tuner.cpp.i
 
 # target to preprocess a source file
 src/Tuner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Tuner.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Tuner.cpp.i
 .PHONY : src/Tuner.cpp.i
 
 src/Tuner.s: src/Tuner.cpp.s
@@ -318,1167 +331,15 @@ src/Tuner.s: src/Tuner.cpp.s
 
 # target to generate assembly for a file
 src/Tuner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/Tuner.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/Tuner.cpp.s
 .PHONY : src/Tuner.cpp.s
-
-src/jni/JetPlayer.o: src/jni/JetPlayer.cpp.o
-.PHONY : src/jni/JetPlayer.o
-
-# target to build an object file
-src/jni/JetPlayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o
-.PHONY : src/jni/JetPlayer.cpp.o
-
-src/jni/JetPlayer.i: src/jni/JetPlayer.cpp.i
-.PHONY : src/jni/JetPlayer.i
-
-# target to preprocess a source file
-src/jni/JetPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.i
-.PHONY : src/jni/JetPlayer.cpp.i
-
-src/jni/JetPlayer.s: src/jni/JetPlayer.cpp.s
-.PHONY : src/jni/JetPlayer.s
-
-# target to generate assembly for a file
-src/jni/JetPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.s
-.PHONY : src/jni/JetPlayer.cpp.s
-
-src/jni/android_media_ImageReader.o: src/jni/android_media_ImageReader.cpp.o
-.PHONY : src/jni/android_media_ImageReader.o
-
-# target to build an object file
-src/jni/android_media_ImageReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o
-.PHONY : src/jni/android_media_ImageReader.cpp.o
-
-src/jni/android_media_ImageReader.i: src/jni/android_media_ImageReader.cpp.i
-.PHONY : src/jni/android_media_ImageReader.i
-
-# target to preprocess a source file
-src/jni/android_media_ImageReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.i
-.PHONY : src/jni/android_media_ImageReader.cpp.i
-
-src/jni/android_media_ImageReader.s: src/jni/android_media_ImageReader.cpp.s
-.PHONY : src/jni/android_media_ImageReader.s
-
-# target to generate assembly for a file
-src/jni/android_media_ImageReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.s
-.PHONY : src/jni/android_media_ImageReader.cpp.s
-
-src/jni/android_media_ImageWriter.o: src/jni/android_media_ImageWriter.cpp.o
-.PHONY : src/jni/android_media_ImageWriter.o
-
-# target to build an object file
-src/jni/android_media_ImageWriter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o
-.PHONY : src/jni/android_media_ImageWriter.cpp.o
-
-src/jni/android_media_ImageWriter.i: src/jni/android_media_ImageWriter.cpp.i
-.PHONY : src/jni/android_media_ImageWriter.i
-
-# target to preprocess a source file
-src/jni/android_media_ImageWriter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.i
-.PHONY : src/jni/android_media_ImageWriter.cpp.i
-
-src/jni/android_media_ImageWriter.s: src/jni/android_media_ImageWriter.cpp.s
-.PHONY : src/jni/android_media_ImageWriter.s
-
-# target to generate assembly for a file
-src/jni/android_media_ImageWriter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.s
-.PHONY : src/jni/android_media_ImageWriter.cpp.s
-
-src/jni/android_media_JetPlayer.o: src/jni/android_media_JetPlayer.cpp.o
-.PHONY : src/jni/android_media_JetPlayer.o
-
-# target to build an object file
-src/jni/android_media_JetPlayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o
-.PHONY : src/jni/android_media_JetPlayer.cpp.o
-
-src/jni/android_media_JetPlayer.i: src/jni/android_media_JetPlayer.cpp.i
-.PHONY : src/jni/android_media_JetPlayer.i
-
-# target to preprocess a source file
-src/jni/android_media_JetPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.i
-.PHONY : src/jni/android_media_JetPlayer.cpp.i
-
-src/jni/android_media_JetPlayer.s: src/jni/android_media_JetPlayer.cpp.s
-.PHONY : src/jni/android_media_JetPlayer.s
-
-# target to generate assembly for a file
-src/jni/android_media_JetPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.s
-.PHONY : src/jni/android_media_JetPlayer.cpp.s
-
-src/jni/android_media_MediaCodec.o: src/jni/android_media_MediaCodec.cpp.o
-.PHONY : src/jni/android_media_MediaCodec.o
-
-# target to build an object file
-src/jni/android_media_MediaCodec.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o
-.PHONY : src/jni/android_media_MediaCodec.cpp.o
-
-src/jni/android_media_MediaCodec.i: src/jni/android_media_MediaCodec.cpp.i
-.PHONY : src/jni/android_media_MediaCodec.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaCodec.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.i
-.PHONY : src/jni/android_media_MediaCodec.cpp.i
-
-src/jni/android_media_MediaCodec.s: src/jni/android_media_MediaCodec.cpp.s
-.PHONY : src/jni/android_media_MediaCodec.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaCodec.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.s
-.PHONY : src/jni/android_media_MediaCodec.cpp.s
-
-src/jni/android_media_MediaCodecList.o: src/jni/android_media_MediaCodecList.cpp.o
-.PHONY : src/jni/android_media_MediaCodecList.o
-
-# target to build an object file
-src/jni/android_media_MediaCodecList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o
-.PHONY : src/jni/android_media_MediaCodecList.cpp.o
-
-src/jni/android_media_MediaCodecList.i: src/jni/android_media_MediaCodecList.cpp.i
-.PHONY : src/jni/android_media_MediaCodecList.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaCodecList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.i
-.PHONY : src/jni/android_media_MediaCodecList.cpp.i
-
-src/jni/android_media_MediaCodecList.s: src/jni/android_media_MediaCodecList.cpp.s
-.PHONY : src/jni/android_media_MediaCodecList.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaCodecList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.s
-.PHONY : src/jni/android_media_MediaCodecList.cpp.s
-
-src/jni/android_media_MediaCrypto.o: src/jni/android_media_MediaCrypto.cpp.o
-.PHONY : src/jni/android_media_MediaCrypto.o
-
-# target to build an object file
-src/jni/android_media_MediaCrypto.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o
-.PHONY : src/jni/android_media_MediaCrypto.cpp.o
-
-src/jni/android_media_MediaCrypto.i: src/jni/android_media_MediaCrypto.cpp.i
-.PHONY : src/jni/android_media_MediaCrypto.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaCrypto.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.i
-.PHONY : src/jni/android_media_MediaCrypto.cpp.i
-
-src/jni/android_media_MediaCrypto.s: src/jni/android_media_MediaCrypto.cpp.s
-.PHONY : src/jni/android_media_MediaCrypto.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaCrypto.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.s
-.PHONY : src/jni/android_media_MediaCrypto.cpp.s
-
-src/jni/android_media_MediaDataSource.o: src/jni/android_media_MediaDataSource.cpp.o
-.PHONY : src/jni/android_media_MediaDataSource.o
-
-# target to build an object file
-src/jni/android_media_MediaDataSource.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o
-.PHONY : src/jni/android_media_MediaDataSource.cpp.o
-
-src/jni/android_media_MediaDataSource.i: src/jni/android_media_MediaDataSource.cpp.i
-.PHONY : src/jni/android_media_MediaDataSource.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaDataSource.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.i
-.PHONY : src/jni/android_media_MediaDataSource.cpp.i
-
-src/jni/android_media_MediaDataSource.s: src/jni/android_media_MediaDataSource.cpp.s
-.PHONY : src/jni/android_media_MediaDataSource.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaDataSource.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.s
-.PHONY : src/jni/android_media_MediaDataSource.cpp.s
-
-src/jni/android_media_MediaDescrambler.o: src/jni/android_media_MediaDescrambler.cpp.o
-.PHONY : src/jni/android_media_MediaDescrambler.o
-
-# target to build an object file
-src/jni/android_media_MediaDescrambler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o
-.PHONY : src/jni/android_media_MediaDescrambler.cpp.o
-
-src/jni/android_media_MediaDescrambler.i: src/jni/android_media_MediaDescrambler.cpp.i
-.PHONY : src/jni/android_media_MediaDescrambler.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaDescrambler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.i
-.PHONY : src/jni/android_media_MediaDescrambler.cpp.i
-
-src/jni/android_media_MediaDescrambler.s: src/jni/android_media_MediaDescrambler.cpp.s
-.PHONY : src/jni/android_media_MediaDescrambler.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaDescrambler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.s
-.PHONY : src/jni/android_media_MediaDescrambler.cpp.s
-
-src/jni/android_media_MediaDrm.o: src/jni/android_media_MediaDrm.cpp.o
-.PHONY : src/jni/android_media_MediaDrm.o
-
-# target to build an object file
-src/jni/android_media_MediaDrm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o
-.PHONY : src/jni/android_media_MediaDrm.cpp.o
-
-src/jni/android_media_MediaDrm.i: src/jni/android_media_MediaDrm.cpp.i
-.PHONY : src/jni/android_media_MediaDrm.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaDrm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.i
-.PHONY : src/jni/android_media_MediaDrm.cpp.i
-
-src/jni/android_media_MediaDrm.s: src/jni/android_media_MediaDrm.cpp.s
-.PHONY : src/jni/android_media_MediaDrm.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaDrm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.s
-.PHONY : src/jni/android_media_MediaDrm.cpp.s
-
-src/jni/android_media_MediaExtractor.o: src/jni/android_media_MediaExtractor.cpp.o
-.PHONY : src/jni/android_media_MediaExtractor.o
-
-# target to build an object file
-src/jni/android_media_MediaExtractor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o
-.PHONY : src/jni/android_media_MediaExtractor.cpp.o
-
-src/jni/android_media_MediaExtractor.i: src/jni/android_media_MediaExtractor.cpp.i
-.PHONY : src/jni/android_media_MediaExtractor.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaExtractor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.i
-.PHONY : src/jni/android_media_MediaExtractor.cpp.i
-
-src/jni/android_media_MediaExtractor.s: src/jni/android_media_MediaExtractor.cpp.s
-.PHONY : src/jni/android_media_MediaExtractor.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaExtractor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.s
-.PHONY : src/jni/android_media_MediaExtractor.cpp.s
-
-src/jni/android_media_MediaHTTPConnection.o: src/jni/android_media_MediaHTTPConnection.cpp.o
-.PHONY : src/jni/android_media_MediaHTTPConnection.o
-
-# target to build an object file
-src/jni/android_media_MediaHTTPConnection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o
-.PHONY : src/jni/android_media_MediaHTTPConnection.cpp.o
-
-src/jni/android_media_MediaHTTPConnection.i: src/jni/android_media_MediaHTTPConnection.cpp.i
-.PHONY : src/jni/android_media_MediaHTTPConnection.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaHTTPConnection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.i
-.PHONY : src/jni/android_media_MediaHTTPConnection.cpp.i
-
-src/jni/android_media_MediaHTTPConnection.s: src/jni/android_media_MediaHTTPConnection.cpp.s
-.PHONY : src/jni/android_media_MediaHTTPConnection.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaHTTPConnection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.s
-.PHONY : src/jni/android_media_MediaHTTPConnection.cpp.s
-
-src/jni/android_media_MediaMetadataRetriever.o: src/jni/android_media_MediaMetadataRetriever.cpp.o
-.PHONY : src/jni/android_media_MediaMetadataRetriever.o
-
-# target to build an object file
-src/jni/android_media_MediaMetadataRetriever.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o
-.PHONY : src/jni/android_media_MediaMetadataRetriever.cpp.o
-
-src/jni/android_media_MediaMetadataRetriever.i: src/jni/android_media_MediaMetadataRetriever.cpp.i
-.PHONY : src/jni/android_media_MediaMetadataRetriever.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaMetadataRetriever.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.i
-.PHONY : src/jni/android_media_MediaMetadataRetriever.cpp.i
-
-src/jni/android_media_MediaMetadataRetriever.s: src/jni/android_media_MediaMetadataRetriever.cpp.s
-.PHONY : src/jni/android_media_MediaMetadataRetriever.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaMetadataRetriever.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.s
-.PHONY : src/jni/android_media_MediaMetadataRetriever.cpp.s
-
-src/jni/android_media_MediaMetricsJNI.o: src/jni/android_media_MediaMetricsJNI.cpp.o
-.PHONY : src/jni/android_media_MediaMetricsJNI.o
-
-# target to build an object file
-src/jni/android_media_MediaMetricsJNI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o
-.PHONY : src/jni/android_media_MediaMetricsJNI.cpp.o
-
-src/jni/android_media_MediaMetricsJNI.i: src/jni/android_media_MediaMetricsJNI.cpp.i
-.PHONY : src/jni/android_media_MediaMetricsJNI.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaMetricsJNI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.i
-.PHONY : src/jni/android_media_MediaMetricsJNI.cpp.i
-
-src/jni/android_media_MediaMetricsJNI.s: src/jni/android_media_MediaMetricsJNI.cpp.s
-.PHONY : src/jni/android_media_MediaMetricsJNI.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaMetricsJNI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.s
-.PHONY : src/jni/android_media_MediaMetricsJNI.cpp.s
-
-src/jni/android_media_MediaMuxer.o: src/jni/android_media_MediaMuxer.cpp.o
-.PHONY : src/jni/android_media_MediaMuxer.o
-
-# target to build an object file
-src/jni/android_media_MediaMuxer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o
-.PHONY : src/jni/android_media_MediaMuxer.cpp.o
-
-src/jni/android_media_MediaMuxer.i: src/jni/android_media_MediaMuxer.cpp.i
-.PHONY : src/jni/android_media_MediaMuxer.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaMuxer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.i
-.PHONY : src/jni/android_media_MediaMuxer.cpp.i
-
-src/jni/android_media_MediaMuxer.s: src/jni/android_media_MediaMuxer.cpp.s
-.PHONY : src/jni/android_media_MediaMuxer.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaMuxer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.s
-.PHONY : src/jni/android_media_MediaMuxer.cpp.s
-
-src/jni/android_media_MediaPlayer.o: src/jni/android_media_MediaPlayer.cpp.o
-.PHONY : src/jni/android_media_MediaPlayer.o
-
-# target to build an object file
-src/jni/android_media_MediaPlayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o
-.PHONY : src/jni/android_media_MediaPlayer.cpp.o
-
-src/jni/android_media_MediaPlayer.i: src/jni/android_media_MediaPlayer.cpp.i
-.PHONY : src/jni/android_media_MediaPlayer.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.i
-.PHONY : src/jni/android_media_MediaPlayer.cpp.i
-
-src/jni/android_media_MediaPlayer.s: src/jni/android_media_MediaPlayer.cpp.s
-.PHONY : src/jni/android_media_MediaPlayer.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.s
-.PHONY : src/jni/android_media_MediaPlayer.cpp.s
-
-src/jni/android_media_MediaProfiles.o: src/jni/android_media_MediaProfiles.cpp.o
-.PHONY : src/jni/android_media_MediaProfiles.o
-
-# target to build an object file
-src/jni/android_media_MediaProfiles.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o
-.PHONY : src/jni/android_media_MediaProfiles.cpp.o
-
-src/jni/android_media_MediaProfiles.i: src/jni/android_media_MediaProfiles.cpp.i
-.PHONY : src/jni/android_media_MediaProfiles.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaProfiles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.i
-.PHONY : src/jni/android_media_MediaProfiles.cpp.i
-
-src/jni/android_media_MediaProfiles.s: src/jni/android_media_MediaProfiles.cpp.s
-.PHONY : src/jni/android_media_MediaProfiles.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaProfiles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.s
-.PHONY : src/jni/android_media_MediaProfiles.cpp.s
-
-src/jni/android_media_MediaRecorder.o: src/jni/android_media_MediaRecorder.cpp.o
-.PHONY : src/jni/android_media_MediaRecorder.o
-
-# target to build an object file
-src/jni/android_media_MediaRecorder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o
-.PHONY : src/jni/android_media_MediaRecorder.cpp.o
-
-src/jni/android_media_MediaRecorder.i: src/jni/android_media_MediaRecorder.cpp.i
-.PHONY : src/jni/android_media_MediaRecorder.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaRecorder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.i
-.PHONY : src/jni/android_media_MediaRecorder.cpp.i
-
-src/jni/android_media_MediaRecorder.s: src/jni/android_media_MediaRecorder.cpp.s
-.PHONY : src/jni/android_media_MediaRecorder.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaRecorder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.s
-.PHONY : src/jni/android_media_MediaRecorder.cpp.s
-
-src/jni/android_media_MediaSync.o: src/jni/android_media_MediaSync.cpp.o
-.PHONY : src/jni/android_media_MediaSync.o
-
-# target to build an object file
-src/jni/android_media_MediaSync.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o
-.PHONY : src/jni/android_media_MediaSync.cpp.o
-
-src/jni/android_media_MediaSync.i: src/jni/android_media_MediaSync.cpp.i
-.PHONY : src/jni/android_media_MediaSync.i
-
-# target to preprocess a source file
-src/jni/android_media_MediaSync.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.i
-.PHONY : src/jni/android_media_MediaSync.cpp.i
-
-src/jni/android_media_MediaSync.s: src/jni/android_media_MediaSync.cpp.s
-.PHONY : src/jni/android_media_MediaSync.s
-
-# target to generate assembly for a file
-src/jni/android_media_MediaSync.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.s
-.PHONY : src/jni/android_media_MediaSync.cpp.s
-
-src/jni/android_media_ResampleInputStream.o: src/jni/android_media_ResampleInputStream.cpp.o
-.PHONY : src/jni/android_media_ResampleInputStream.o
-
-# target to build an object file
-src/jni/android_media_ResampleInputStream.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o
-.PHONY : src/jni/android_media_ResampleInputStream.cpp.o
-
-src/jni/android_media_ResampleInputStream.i: src/jni/android_media_ResampleInputStream.cpp.i
-.PHONY : src/jni/android_media_ResampleInputStream.i
-
-# target to preprocess a source file
-src/jni/android_media_ResampleInputStream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.i
-.PHONY : src/jni/android_media_ResampleInputStream.cpp.i
-
-src/jni/android_media_ResampleInputStream.s: src/jni/android_media_ResampleInputStream.cpp.s
-.PHONY : src/jni/android_media_ResampleInputStream.s
-
-# target to generate assembly for a file
-src/jni/android_media_ResampleInputStream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.s
-.PHONY : src/jni/android_media_ResampleInputStream.cpp.s
-
-src/jni/android_media_Streams.o: src/jni/android_media_Streams.cpp.o
-.PHONY : src/jni/android_media_Streams.o
-
-# target to build an object file
-src/jni/android_media_Streams.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o
-.PHONY : src/jni/android_media_Streams.cpp.o
-
-src/jni/android_media_Streams.i: src/jni/android_media_Streams.cpp.i
-.PHONY : src/jni/android_media_Streams.i
-
-# target to preprocess a source file
-src/jni/android_media_Streams.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.i
-.PHONY : src/jni/android_media_Streams.cpp.i
-
-src/jni/android_media_Streams.s: src/jni/android_media_Streams.cpp.s
-.PHONY : src/jni/android_media_Streams.s
-
-# target to generate assembly for a file
-src/jni/android_media_Streams.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.s
-.PHONY : src/jni/android_media_Streams.cpp.s
-
-src/jni/android_media_SyncParams.o: src/jni/android_media_SyncParams.cpp.o
-.PHONY : src/jni/android_media_SyncParams.o
-
-# target to build an object file
-src/jni/android_media_SyncParams.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o
-.PHONY : src/jni/android_media_SyncParams.cpp.o
-
-src/jni/android_media_SyncParams.i: src/jni/android_media_SyncParams.cpp.i
-.PHONY : src/jni/android_media_SyncParams.i
-
-# target to preprocess a source file
-src/jni/android_media_SyncParams.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.i
-.PHONY : src/jni/android_media_SyncParams.cpp.i
-
-src/jni/android_media_SyncParams.s: src/jni/android_media_SyncParams.cpp.s
-.PHONY : src/jni/android_media_SyncParams.s
-
-# target to generate assembly for a file
-src/jni/android_media_SyncParams.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.s
-.PHONY : src/jni/android_media_SyncParams.cpp.s
-
-src/jni/android_media_Utils.o: src/jni/android_media_Utils.cpp.o
-.PHONY : src/jni/android_media_Utils.o
-
-# target to build an object file
-src/jni/android_media_Utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o
-.PHONY : src/jni/android_media_Utils.cpp.o
-
-src/jni/android_media_Utils.i: src/jni/android_media_Utils.cpp.i
-.PHONY : src/jni/android_media_Utils.i
-
-# target to preprocess a source file
-src/jni/android_media_Utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.i
-.PHONY : src/jni/android_media_Utils.cpp.i
-
-src/jni/android_media_Utils.s: src/jni/android_media_Utils.cpp.s
-.PHONY : src/jni/android_media_Utils.s
-
-# target to generate assembly for a file
-src/jni/android_media_Utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.s
-.PHONY : src/jni/android_media_Utils.cpp.s
-
-src/jni/android_media_tv_Tuner.o: src/jni/android_media_tv_Tuner.cpp.o
-.PHONY : src/jni/android_media_tv_Tuner.o
-
-# target to build an object file
-src/jni/android_media_tv_Tuner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o
-.PHONY : src/jni/android_media_tv_Tuner.cpp.o
-
-src/jni/android_media_tv_Tuner.i: src/jni/android_media_tv_Tuner.cpp.i
-.PHONY : src/jni/android_media_tv_Tuner.i
-
-# target to preprocess a source file
-src/jni/android_media_tv_Tuner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.i
-.PHONY : src/jni/android_media_tv_Tuner.cpp.i
-
-src/jni/android_media_tv_Tuner.s: src/jni/android_media_tv_Tuner.cpp.s
-.PHONY : src/jni/android_media_tv_Tuner.s
-
-# target to generate assembly for a file
-src/jni/android_media_tv_Tuner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.s
-.PHONY : src/jni/android_media_tv_Tuner.cpp.s
-
-src/jni/android_mtp_MtpDatabase.o: src/jni/android_mtp_MtpDatabase.cpp.o
-.PHONY : src/jni/android_mtp_MtpDatabase.o
-
-# target to build an object file
-src/jni/android_mtp_MtpDatabase.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o
-.PHONY : src/jni/android_mtp_MtpDatabase.cpp.o
-
-src/jni/android_mtp_MtpDatabase.i: src/jni/android_mtp_MtpDatabase.cpp.i
-.PHONY : src/jni/android_mtp_MtpDatabase.i
-
-# target to preprocess a source file
-src/jni/android_mtp_MtpDatabase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.i
-.PHONY : src/jni/android_mtp_MtpDatabase.cpp.i
-
-src/jni/android_mtp_MtpDatabase.s: src/jni/android_mtp_MtpDatabase.cpp.s
-.PHONY : src/jni/android_mtp_MtpDatabase.s
-
-# target to generate assembly for a file
-src/jni/android_mtp_MtpDatabase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.s
-.PHONY : src/jni/android_mtp_MtpDatabase.cpp.s
-
-src/jni/android_mtp_MtpDevice.o: src/jni/android_mtp_MtpDevice.cpp.o
-.PHONY : src/jni/android_mtp_MtpDevice.o
-
-# target to build an object file
-src/jni/android_mtp_MtpDevice.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o
-.PHONY : src/jni/android_mtp_MtpDevice.cpp.o
-
-src/jni/android_mtp_MtpDevice.i: src/jni/android_mtp_MtpDevice.cpp.i
-.PHONY : src/jni/android_mtp_MtpDevice.i
-
-# target to preprocess a source file
-src/jni/android_mtp_MtpDevice.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.i
-.PHONY : src/jni/android_mtp_MtpDevice.cpp.i
-
-src/jni/android_mtp_MtpDevice.s: src/jni/android_mtp_MtpDevice.cpp.s
-.PHONY : src/jni/android_mtp_MtpDevice.s
-
-# target to generate assembly for a file
-src/jni/android_mtp_MtpDevice.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.s
-.PHONY : src/jni/android_mtp_MtpDevice.cpp.s
-
-src/jni/android_mtp_MtpServer.o: src/jni/android_mtp_MtpServer.cpp.o
-.PHONY : src/jni/android_mtp_MtpServer.o
-
-# target to build an object file
-src/jni/android_mtp_MtpServer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o
-.PHONY : src/jni/android_mtp_MtpServer.cpp.o
-
-src/jni/android_mtp_MtpServer.i: src/jni/android_mtp_MtpServer.cpp.i
-.PHONY : src/jni/android_mtp_MtpServer.i
-
-# target to preprocess a source file
-src/jni/android_mtp_MtpServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.i
-.PHONY : src/jni/android_mtp_MtpServer.cpp.i
-
-src/jni/android_mtp_MtpServer.s: src/jni/android_mtp_MtpServer.cpp.s
-.PHONY : src/jni/android_mtp_MtpServer.s
-
-# target to generate assembly for a file
-src/jni/android_mtp_MtpServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.s
-.PHONY : src/jni/android_mtp_MtpServer.cpp.s
-
-src/jni/audioeffect/Visualizer.o: src/jni/audioeffect/Visualizer.cpp.o
-.PHONY : src/jni/audioeffect/Visualizer.o
-
-# target to build an object file
-src/jni/audioeffect/Visualizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o
-.PHONY : src/jni/audioeffect/Visualizer.cpp.o
-
-src/jni/audioeffect/Visualizer.i: src/jni/audioeffect/Visualizer.cpp.i
-.PHONY : src/jni/audioeffect/Visualizer.i
-
-# target to preprocess a source file
-src/jni/audioeffect/Visualizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.i
-.PHONY : src/jni/audioeffect/Visualizer.cpp.i
-
-src/jni/audioeffect/Visualizer.s: src/jni/audioeffect/Visualizer.cpp.s
-.PHONY : src/jni/audioeffect/Visualizer.s
-
-# target to generate assembly for a file
-src/jni/audioeffect/Visualizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.s
-.PHONY : src/jni/audioeffect/Visualizer.cpp.s
-
-src/jni/audioeffect/android_media_AudioEffect.o: src/jni/audioeffect/android_media_AudioEffect.cpp.o
-.PHONY : src/jni/audioeffect/android_media_AudioEffect.o
-
-# target to build an object file
-src/jni/audioeffect/android_media_AudioEffect.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o
-.PHONY : src/jni/audioeffect/android_media_AudioEffect.cpp.o
-
-src/jni/audioeffect/android_media_AudioEffect.i: src/jni/audioeffect/android_media_AudioEffect.cpp.i
-.PHONY : src/jni/audioeffect/android_media_AudioEffect.i
-
-# target to preprocess a source file
-src/jni/audioeffect/android_media_AudioEffect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.i
-.PHONY : src/jni/audioeffect/android_media_AudioEffect.cpp.i
-
-src/jni/audioeffect/android_media_AudioEffect.s: src/jni/audioeffect/android_media_AudioEffect.cpp.s
-.PHONY : src/jni/audioeffect/android_media_AudioEffect.s
-
-# target to generate assembly for a file
-src/jni/audioeffect/android_media_AudioEffect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.s
-.PHONY : src/jni/audioeffect/android_media_AudioEffect.cpp.s
-
-src/jni/audioeffect/android_media_SourceDefaultEffect.o: src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o
-.PHONY : src/jni/audioeffect/android_media_SourceDefaultEffect.o
-
-# target to build an object file
-src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o
-.PHONY : src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o
-
-src/jni/audioeffect/android_media_SourceDefaultEffect.i: src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.i
-.PHONY : src/jni/audioeffect/android_media_SourceDefaultEffect.i
-
-# target to preprocess a source file
-src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.i
-.PHONY : src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.i
-
-src/jni/audioeffect/android_media_SourceDefaultEffect.s: src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.s
-.PHONY : src/jni/audioeffect/android_media_SourceDefaultEffect.s
-
-# target to generate assembly for a file
-src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.s
-.PHONY : src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.s
-
-src/jni/audioeffect/android_media_StreamDefaultEffect.o: src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o
-.PHONY : src/jni/audioeffect/android_media_StreamDefaultEffect.o
-
-# target to build an object file
-src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o
-.PHONY : src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o
-
-src/jni/audioeffect/android_media_StreamDefaultEffect.i: src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.i
-.PHONY : src/jni/audioeffect/android_media_StreamDefaultEffect.i
-
-# target to preprocess a source file
-src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.i
-.PHONY : src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.i
-
-src/jni/audioeffect/android_media_StreamDefaultEffect.s: src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.s
-.PHONY : src/jni/audioeffect/android_media_StreamDefaultEffect.s
-
-# target to generate assembly for a file
-src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.s
-.PHONY : src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.s
-
-src/jni/audioeffect/android_media_Visualizer.o: src/jni/audioeffect/android_media_Visualizer.cpp.o
-.PHONY : src/jni/audioeffect/android_media_Visualizer.o
-
-# target to build an object file
-src/jni/audioeffect/android_media_Visualizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o
-.PHONY : src/jni/audioeffect/android_media_Visualizer.cpp.o
-
-src/jni/audioeffect/android_media_Visualizer.i: src/jni/audioeffect/android_media_Visualizer.cpp.i
-.PHONY : src/jni/audioeffect/android_media_Visualizer.i
-
-# target to preprocess a source file
-src/jni/audioeffect/android_media_Visualizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.i
-.PHONY : src/jni/audioeffect/android_media_Visualizer.cpp.i
-
-src/jni/audioeffect/android_media_Visualizer.s: src/jni/audioeffect/android_media_Visualizer.cpp.s
-.PHONY : src/jni/audioeffect/android_media_Visualizer.s
-
-# target to generate assembly for a file
-src/jni/audioeffect/android_media_Visualizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.s
-.PHONY : src/jni/audioeffect/android_media_Visualizer.cpp.s
-
-src/jni/soundpool/Sound.o: src/jni/soundpool/Sound.cpp.o
-.PHONY : src/jni/soundpool/Sound.o
-
-# target to build an object file
-src/jni/soundpool/Sound.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o
-.PHONY : src/jni/soundpool/Sound.cpp.o
-
-src/jni/soundpool/Sound.i: src/jni/soundpool/Sound.cpp.i
-.PHONY : src/jni/soundpool/Sound.i
-
-# target to preprocess a source file
-src/jni/soundpool/Sound.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.i
-.PHONY : src/jni/soundpool/Sound.cpp.i
-
-src/jni/soundpool/Sound.s: src/jni/soundpool/Sound.cpp.s
-.PHONY : src/jni/soundpool/Sound.s
-
-# target to generate assembly for a file
-src/jni/soundpool/Sound.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.s
-.PHONY : src/jni/soundpool/Sound.cpp.s
-
-src/jni/soundpool/SoundDecoder.o: src/jni/soundpool/SoundDecoder.cpp.o
-.PHONY : src/jni/soundpool/SoundDecoder.o
-
-# target to build an object file
-src/jni/soundpool/SoundDecoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o
-.PHONY : src/jni/soundpool/SoundDecoder.cpp.o
-
-src/jni/soundpool/SoundDecoder.i: src/jni/soundpool/SoundDecoder.cpp.i
-.PHONY : src/jni/soundpool/SoundDecoder.i
-
-# target to preprocess a source file
-src/jni/soundpool/SoundDecoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.i
-.PHONY : src/jni/soundpool/SoundDecoder.cpp.i
-
-src/jni/soundpool/SoundDecoder.s: src/jni/soundpool/SoundDecoder.cpp.s
-.PHONY : src/jni/soundpool/SoundDecoder.s
-
-# target to generate assembly for a file
-src/jni/soundpool/SoundDecoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.s
-.PHONY : src/jni/soundpool/SoundDecoder.cpp.s
-
-src/jni/soundpool/SoundManager.o: src/jni/soundpool/SoundManager.cpp.o
-.PHONY : src/jni/soundpool/SoundManager.o
-
-# target to build an object file
-src/jni/soundpool/SoundManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o
-.PHONY : src/jni/soundpool/SoundManager.cpp.o
-
-src/jni/soundpool/SoundManager.i: src/jni/soundpool/SoundManager.cpp.i
-.PHONY : src/jni/soundpool/SoundManager.i
-
-# target to preprocess a source file
-src/jni/soundpool/SoundManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.i
-.PHONY : src/jni/soundpool/SoundManager.cpp.i
-
-src/jni/soundpool/SoundManager.s: src/jni/soundpool/SoundManager.cpp.s
-.PHONY : src/jni/soundpool/SoundManager.s
-
-# target to generate assembly for a file
-src/jni/soundpool/SoundManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.s
-.PHONY : src/jni/soundpool/SoundManager.cpp.s
-
-src/jni/soundpool/SoundPool.o: src/jni/soundpool/SoundPool.cpp.o
-.PHONY : src/jni/soundpool/SoundPool.o
-
-# target to build an object file
-src/jni/soundpool/SoundPool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o
-.PHONY : src/jni/soundpool/SoundPool.cpp.o
-
-src/jni/soundpool/SoundPool.i: src/jni/soundpool/SoundPool.cpp.i
-.PHONY : src/jni/soundpool/SoundPool.i
-
-# target to preprocess a source file
-src/jni/soundpool/SoundPool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.i
-.PHONY : src/jni/soundpool/SoundPool.cpp.i
-
-src/jni/soundpool/SoundPool.s: src/jni/soundpool/SoundPool.cpp.s
-.PHONY : src/jni/soundpool/SoundPool.s
-
-# target to generate assembly for a file
-src/jni/soundpool/SoundPool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.s
-.PHONY : src/jni/soundpool/SoundPool.cpp.s
-
-src/jni/soundpool/Stream.o: src/jni/soundpool/Stream.cpp.o
-.PHONY : src/jni/soundpool/Stream.o
-
-# target to build an object file
-src/jni/soundpool/Stream.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o
-.PHONY : src/jni/soundpool/Stream.cpp.o
-
-src/jni/soundpool/Stream.i: src/jni/soundpool/Stream.cpp.i
-.PHONY : src/jni/soundpool/Stream.i
-
-# target to preprocess a source file
-src/jni/soundpool/Stream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.i
-.PHONY : src/jni/soundpool/Stream.cpp.i
-
-src/jni/soundpool/Stream.s: src/jni/soundpool/Stream.cpp.s
-.PHONY : src/jni/soundpool/Stream.s
-
-# target to generate assembly for a file
-src/jni/soundpool/Stream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.s
-.PHONY : src/jni/soundpool/Stream.cpp.s
-
-src/jni/soundpool/StreamManager.o: src/jni/soundpool/StreamManager.cpp.o
-.PHONY : src/jni/soundpool/StreamManager.o
-
-# target to build an object file
-src/jni/soundpool/StreamManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o
-.PHONY : src/jni/soundpool/StreamManager.cpp.o
-
-src/jni/soundpool/StreamManager.i: src/jni/soundpool/StreamManager.cpp.i
-.PHONY : src/jni/soundpool/StreamManager.i
-
-# target to preprocess a source file
-src/jni/soundpool/StreamManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.i
-.PHONY : src/jni/soundpool/StreamManager.cpp.i
-
-src/jni/soundpool/StreamManager.s: src/jni/soundpool/StreamManager.cpp.s
-.PHONY : src/jni/soundpool/StreamManager.s
-
-# target to generate assembly for a file
-src/jni/soundpool/StreamManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.s
-.PHONY : src/jni/soundpool/StreamManager.cpp.s
-
-src/jni/soundpool/android_media_SoundPool.o: src/jni/soundpool/android_media_SoundPool.cpp.o
-.PHONY : src/jni/soundpool/android_media_SoundPool.o
-
-# target to build an object file
-src/jni/soundpool/android_media_SoundPool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o
-.PHONY : src/jni/soundpool/android_media_SoundPool.cpp.o
-
-src/jni/soundpool/android_media_SoundPool.i: src/jni/soundpool/android_media_SoundPool.cpp.i
-.PHONY : src/jni/soundpool/android_media_SoundPool.i
-
-# target to preprocess a source file
-src/jni/soundpool/android_media_SoundPool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.i
-.PHONY : src/jni/soundpool/android_media_SoundPool.cpp.i
-
-src/jni/soundpool/android_media_SoundPool.s: src/jni/soundpool/android_media_SoundPool.cpp.s
-.PHONY : src/jni/soundpool/android_media_SoundPool.s
-
-# target to generate assembly for a file
-src/jni/soundpool/android_media_SoundPool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.s
-.PHONY : src/jni/soundpool/android_media_SoundPool.cpp.s
-
-src/jni/soundpool/tests/soundpool_stress.o: src/jni/soundpool/tests/soundpool_stress.cpp.o
-.PHONY : src/jni/soundpool/tests/soundpool_stress.o
-
-# target to build an object file
-src/jni/soundpool/tests/soundpool_stress.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o
-.PHONY : src/jni/soundpool/tests/soundpool_stress.cpp.o
-
-src/jni/soundpool/tests/soundpool_stress.i: src/jni/soundpool/tests/soundpool_stress.cpp.i
-.PHONY : src/jni/soundpool/tests/soundpool_stress.i
-
-# target to preprocess a source file
-src/jni/soundpool/tests/soundpool_stress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.i
-.PHONY : src/jni/soundpool/tests/soundpool_stress.cpp.i
-
-src/jni/soundpool/tests/soundpool_stress.s: src/jni/soundpool/tests/soundpool_stress.cpp.s
-.PHONY : src/jni/soundpool/tests/soundpool_stress.s
-
-# target to generate assembly for a file
-src/jni/soundpool/tests/soundpool_stress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.s
-.PHONY : src/jni/soundpool/tests/soundpool_stress.cpp.s
-
-src/jni/tuner/DemuxClient.o: src/jni/tuner/DemuxClient.cpp.o
-.PHONY : src/jni/tuner/DemuxClient.o
-
-# target to build an object file
-src/jni/tuner/DemuxClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o
-.PHONY : src/jni/tuner/DemuxClient.cpp.o
-
-src/jni/tuner/DemuxClient.i: src/jni/tuner/DemuxClient.cpp.i
-.PHONY : src/jni/tuner/DemuxClient.i
-
-# target to preprocess a source file
-src/jni/tuner/DemuxClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.i
-.PHONY : src/jni/tuner/DemuxClient.cpp.i
-
-src/jni/tuner/DemuxClient.s: src/jni/tuner/DemuxClient.cpp.s
-.PHONY : src/jni/tuner/DemuxClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/DemuxClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.s
-.PHONY : src/jni/tuner/DemuxClient.cpp.s
-
-src/jni/tuner/DescramblerClient.o: src/jni/tuner/DescramblerClient.cpp.o
-.PHONY : src/jni/tuner/DescramblerClient.o
-
-# target to build an object file
-src/jni/tuner/DescramblerClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o
-.PHONY : src/jni/tuner/DescramblerClient.cpp.o
-
-src/jni/tuner/DescramblerClient.i: src/jni/tuner/DescramblerClient.cpp.i
-.PHONY : src/jni/tuner/DescramblerClient.i
-
-# target to preprocess a source file
-src/jni/tuner/DescramblerClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.i
-.PHONY : src/jni/tuner/DescramblerClient.cpp.i
-
-src/jni/tuner/DescramblerClient.s: src/jni/tuner/DescramblerClient.cpp.s
-.PHONY : src/jni/tuner/DescramblerClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/DescramblerClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.s
-.PHONY : src/jni/tuner/DescramblerClient.cpp.s
-
-src/jni/tuner/DvrClient.o: src/jni/tuner/DvrClient.cpp.o
-.PHONY : src/jni/tuner/DvrClient.o
-
-# target to build an object file
-src/jni/tuner/DvrClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o
-.PHONY : src/jni/tuner/DvrClient.cpp.o
-
-src/jni/tuner/DvrClient.i: src/jni/tuner/DvrClient.cpp.i
-.PHONY : src/jni/tuner/DvrClient.i
-
-# target to preprocess a source file
-src/jni/tuner/DvrClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.i
-.PHONY : src/jni/tuner/DvrClient.cpp.i
-
-src/jni/tuner/DvrClient.s: src/jni/tuner/DvrClient.cpp.s
-.PHONY : src/jni/tuner/DvrClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/DvrClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.s
-.PHONY : src/jni/tuner/DvrClient.cpp.s
-
-src/jni/tuner/FilterClient.o: src/jni/tuner/FilterClient.cpp.o
-.PHONY : src/jni/tuner/FilterClient.o
-
-# target to build an object file
-src/jni/tuner/FilterClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o
-.PHONY : src/jni/tuner/FilterClient.cpp.o
-
-src/jni/tuner/FilterClient.i: src/jni/tuner/FilterClient.cpp.i
-.PHONY : src/jni/tuner/FilterClient.i
-
-# target to preprocess a source file
-src/jni/tuner/FilterClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.i
-.PHONY : src/jni/tuner/FilterClient.cpp.i
-
-src/jni/tuner/FilterClient.s: src/jni/tuner/FilterClient.cpp.s
-.PHONY : src/jni/tuner/FilterClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/FilterClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.s
-.PHONY : src/jni/tuner/FilterClient.cpp.s
-
-src/jni/tuner/FrontendClient.o: src/jni/tuner/FrontendClient.cpp.o
-.PHONY : src/jni/tuner/FrontendClient.o
-
-# target to build an object file
-src/jni/tuner/FrontendClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o
-.PHONY : src/jni/tuner/FrontendClient.cpp.o
-
-src/jni/tuner/FrontendClient.i: src/jni/tuner/FrontendClient.cpp.i
-.PHONY : src/jni/tuner/FrontendClient.i
-
-# target to preprocess a source file
-src/jni/tuner/FrontendClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.i
-.PHONY : src/jni/tuner/FrontendClient.cpp.i
-
-src/jni/tuner/FrontendClient.s: src/jni/tuner/FrontendClient.cpp.s
-.PHONY : src/jni/tuner/FrontendClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/FrontendClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.s
-.PHONY : src/jni/tuner/FrontendClient.cpp.s
-
-src/jni/tuner/LnbClient.o: src/jni/tuner/LnbClient.cpp.o
-.PHONY : src/jni/tuner/LnbClient.o
-
-# target to build an object file
-src/jni/tuner/LnbClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o
-.PHONY : src/jni/tuner/LnbClient.cpp.o
-
-src/jni/tuner/LnbClient.i: src/jni/tuner/LnbClient.cpp.i
-.PHONY : src/jni/tuner/LnbClient.i
-
-# target to preprocess a source file
-src/jni/tuner/LnbClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.i
-.PHONY : src/jni/tuner/LnbClient.cpp.i
-
-src/jni/tuner/LnbClient.s: src/jni/tuner/LnbClient.cpp.s
-.PHONY : src/jni/tuner/LnbClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/LnbClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.s
-.PHONY : src/jni/tuner/LnbClient.cpp.s
-
-src/jni/tuner/TimeFilterClient.o: src/jni/tuner/TimeFilterClient.cpp.o
-.PHONY : src/jni/tuner/TimeFilterClient.o
-
-# target to build an object file
-src/jni/tuner/TimeFilterClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o
-.PHONY : src/jni/tuner/TimeFilterClient.cpp.o
-
-src/jni/tuner/TimeFilterClient.i: src/jni/tuner/TimeFilterClient.cpp.i
-.PHONY : src/jni/tuner/TimeFilterClient.i
-
-# target to preprocess a source file
-src/jni/tuner/TimeFilterClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.i
-.PHONY : src/jni/tuner/TimeFilterClient.cpp.i
-
-src/jni/tuner/TimeFilterClient.s: src/jni/tuner/TimeFilterClient.cpp.s
-.PHONY : src/jni/tuner/TimeFilterClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/TimeFilterClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.s
-.PHONY : src/jni/tuner/TimeFilterClient.cpp.s
-
-src/jni/tuner/TunerClient.o: src/jni/tuner/TunerClient.cpp.o
-.PHONY : src/jni/tuner/TunerClient.o
-
-# target to build an object file
-src/jni/tuner/TunerClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o
-.PHONY : src/jni/tuner/TunerClient.cpp.o
-
-src/jni/tuner/TunerClient.i: src/jni/tuner/TunerClient.cpp.i
-.PHONY : src/jni/tuner/TunerClient.i
-
-# target to preprocess a source file
-src/jni/tuner/TunerClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.i
-.PHONY : src/jni/tuner/TunerClient.cpp.i
-
-src/jni/tuner/TunerClient.s: src/jni/tuner/TunerClient.cpp.s
-.PHONY : src/jni/tuner/TunerClient.s
-
-# target to generate assembly for a file
-src/jni/tuner/TunerClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.s
-.PHONY : src/jni/tuner/TunerClient.cpp.s
 
 src/service.o: src/service.cpp.o
 .PHONY : src/service.o
 
 # target to build an object file
 src/service.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/service.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/service.cpp.o
 .PHONY : src/service.cpp.o
 
 src/service.i: src/service.cpp.i
@@ -1486,7 +347,7 @@ src/service.i: src/service.cpp.i
 
 # target to preprocess a source file
 src/service.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/service.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/service.cpp.i
 .PHONY : src/service.cpp.i
 
 src/service.s: src/service.cpp.s
@@ -1494,7 +355,7 @@ src/service.s: src/service.cpp.s
 
 # target to generate assembly for a file
 src/service.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/service.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/service.cpp.s
 .PHONY : src/service.cpp.s
 
 src/tuner/TunerDemux.o: src/tuner/TunerDemux.cpp.o
@@ -1503,6 +364,7 @@ src/tuner/TunerDemux.o: src/tuner/TunerDemux.cpp.o
 # target to build an object file
 src/tuner/TunerDemux.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o
 .PHONY : src/tuner/TunerDemux.cpp.o
 
 src/tuner/TunerDemux.i: src/tuner/TunerDemux.cpp.i
@@ -1511,6 +373,7 @@ src/tuner/TunerDemux.i: src/tuner/TunerDemux.cpp.i
 # target to preprocess a source file
 src/tuner/TunerDemux.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.i
 .PHONY : src/tuner/TunerDemux.cpp.i
 
 src/tuner/TunerDemux.s: src/tuner/TunerDemux.cpp.s
@@ -1519,6 +382,7 @@ src/tuner/TunerDemux.s: src/tuner/TunerDemux.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerDemux.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.s
 .PHONY : src/tuner/TunerDemux.cpp.s
 
 src/tuner/TunerDescrambler.o: src/tuner/TunerDescrambler.cpp.o
@@ -1527,6 +391,7 @@ src/tuner/TunerDescrambler.o: src/tuner/TunerDescrambler.cpp.o
 # target to build an object file
 src/tuner/TunerDescrambler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o
 .PHONY : src/tuner/TunerDescrambler.cpp.o
 
 src/tuner/TunerDescrambler.i: src/tuner/TunerDescrambler.cpp.i
@@ -1535,6 +400,7 @@ src/tuner/TunerDescrambler.i: src/tuner/TunerDescrambler.cpp.i
 # target to preprocess a source file
 src/tuner/TunerDescrambler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.i
 .PHONY : src/tuner/TunerDescrambler.cpp.i
 
 src/tuner/TunerDescrambler.s: src/tuner/TunerDescrambler.cpp.s
@@ -1543,6 +409,7 @@ src/tuner/TunerDescrambler.s: src/tuner/TunerDescrambler.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerDescrambler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.s
 .PHONY : src/tuner/TunerDescrambler.cpp.s
 
 src/tuner/TunerDvr.o: src/tuner/TunerDvr.cpp.o
@@ -1551,6 +418,7 @@ src/tuner/TunerDvr.o: src/tuner/TunerDvr.cpp.o
 # target to build an object file
 src/tuner/TunerDvr.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o
 .PHONY : src/tuner/TunerDvr.cpp.o
 
 src/tuner/TunerDvr.i: src/tuner/TunerDvr.cpp.i
@@ -1559,6 +427,7 @@ src/tuner/TunerDvr.i: src/tuner/TunerDvr.cpp.i
 # target to preprocess a source file
 src/tuner/TunerDvr.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.i
 .PHONY : src/tuner/TunerDvr.cpp.i
 
 src/tuner/TunerDvr.s: src/tuner/TunerDvr.cpp.s
@@ -1567,6 +436,7 @@ src/tuner/TunerDvr.s: src/tuner/TunerDvr.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerDvr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.s
 .PHONY : src/tuner/TunerDvr.cpp.s
 
 src/tuner/TunerFilter.o: src/tuner/TunerFilter.cpp.o
@@ -1575,6 +445,7 @@ src/tuner/TunerFilter.o: src/tuner/TunerFilter.cpp.o
 # target to build an object file
 src/tuner/TunerFilter.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o
 .PHONY : src/tuner/TunerFilter.cpp.o
 
 src/tuner/TunerFilter.i: src/tuner/TunerFilter.cpp.i
@@ -1583,6 +454,7 @@ src/tuner/TunerFilter.i: src/tuner/TunerFilter.cpp.i
 # target to preprocess a source file
 src/tuner/TunerFilter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.i
 .PHONY : src/tuner/TunerFilter.cpp.i
 
 src/tuner/TunerFilter.s: src/tuner/TunerFilter.cpp.s
@@ -1591,6 +463,7 @@ src/tuner/TunerFilter.s: src/tuner/TunerFilter.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.s
 .PHONY : src/tuner/TunerFilter.cpp.s
 
 src/tuner/TunerFrontend.o: src/tuner/TunerFrontend.cpp.o
@@ -1599,6 +472,7 @@ src/tuner/TunerFrontend.o: src/tuner/TunerFrontend.cpp.o
 # target to build an object file
 src/tuner/TunerFrontend.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o
 .PHONY : src/tuner/TunerFrontend.cpp.o
 
 src/tuner/TunerFrontend.i: src/tuner/TunerFrontend.cpp.i
@@ -1607,6 +481,7 @@ src/tuner/TunerFrontend.i: src/tuner/TunerFrontend.cpp.i
 # target to preprocess a source file
 src/tuner/TunerFrontend.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.i
 .PHONY : src/tuner/TunerFrontend.cpp.i
 
 src/tuner/TunerFrontend.s: src/tuner/TunerFrontend.cpp.s
@@ -1615,6 +490,7 @@ src/tuner/TunerFrontend.s: src/tuner/TunerFrontend.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerFrontend.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.s
 .PHONY : src/tuner/TunerFrontend.cpp.s
 
 src/tuner/TunerLnb.o: src/tuner/TunerLnb.cpp.o
@@ -1623,6 +499,7 @@ src/tuner/TunerLnb.o: src/tuner/TunerLnb.cpp.o
 # target to build an object file
 src/tuner/TunerLnb.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o
 .PHONY : src/tuner/TunerLnb.cpp.o
 
 src/tuner/TunerLnb.i: src/tuner/TunerLnb.cpp.i
@@ -1631,6 +508,7 @@ src/tuner/TunerLnb.i: src/tuner/TunerLnb.cpp.i
 # target to preprocess a source file
 src/tuner/TunerLnb.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.i
 .PHONY : src/tuner/TunerLnb.cpp.i
 
 src/tuner/TunerLnb.s: src/tuner/TunerLnb.cpp.s
@@ -1639,6 +517,7 @@ src/tuner/TunerLnb.s: src/tuner/TunerLnb.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerLnb.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.s
 .PHONY : src/tuner/TunerLnb.cpp.s
 
 src/tuner/TunerService.o: src/tuner/TunerService.cpp.o
@@ -1647,6 +526,7 @@ src/tuner/TunerService.o: src/tuner/TunerService.cpp.o
 # target to build an object file
 src/tuner/TunerService.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o
 .PHONY : src/tuner/TunerService.cpp.o
 
 src/tuner/TunerService.i: src/tuner/TunerService.cpp.i
@@ -1655,6 +535,7 @@ src/tuner/TunerService.i: src/tuner/TunerService.cpp.i
 # target to preprocess a source file
 src/tuner/TunerService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.i
 .PHONY : src/tuner/TunerService.cpp.i
 
 src/tuner/TunerService.s: src/tuner/TunerService.cpp.s
@@ -1663,6 +544,7 @@ src/tuner/TunerService.s: src/tuner/TunerService.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.s
 .PHONY : src/tuner/TunerService.cpp.s
 
 src/tuner/TunerTimeFilter.o: src/tuner/TunerTimeFilter.cpp.o
@@ -1671,6 +553,7 @@ src/tuner/TunerTimeFilter.o: src/tuner/TunerTimeFilter.cpp.o
 # target to build an object file
 src/tuner/TunerTimeFilter.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o
 .PHONY : src/tuner/TunerTimeFilter.cpp.o
 
 src/tuner/TunerTimeFilter.i: src/tuner/TunerTimeFilter.cpp.i
@@ -1679,6 +562,7 @@ src/tuner/TunerTimeFilter.i: src/tuner/TunerTimeFilter.cpp.i
 # target to preprocess a source file
 src/tuner/TunerTimeFilter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.i
 .PHONY : src/tuner/TunerTimeFilter.cpp.i
 
 src/tuner/TunerTimeFilter.s: src/tuner/TunerTimeFilter.cpp.s
@@ -1687,6 +571,7 @@ src/tuner/TunerTimeFilter.s: src/tuner/TunerTimeFilter.cpp.s
 # target to generate assembly for a file
 src/tuner/TunerTimeFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.s
 .PHONY : src/tuner/TunerTimeFilter.cpp.s
 
 src/tuner/main_tunerservice.o: src/tuner/main_tunerservice.cpp.o
@@ -1695,6 +580,7 @@ src/tuner/main_tunerservice.o: src/tuner/main_tunerservice.cpp.o
 # target to build an object file
 src/tuner/main_tunerservice.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o
 .PHONY : src/tuner/main_tunerservice.cpp.o
 
 src/tuner/main_tunerservice.i: src/tuner/main_tunerservice.cpp.i
@@ -1703,6 +589,7 @@ src/tuner/main_tunerservice.i: src/tuner/main_tunerservice.cpp.i
 # target to preprocess a source file
 src/tuner/main_tunerservice.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.i
 .PHONY : src/tuner/main_tunerservice.cpp.i
 
 src/tuner/main_tunerservice.s: src/tuner/main_tunerservice.cpp.s
@@ -1711,6 +598,7 @@ src/tuner/main_tunerservice.s: src/tuner/main_tunerservice.cpp.s
 # target to generate assembly for a file
 src/tuner/main_tunerservice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuner.dir/build.make CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.s
 .PHONY : src/tuner/main_tunerservice.cpp.s
 
 # Help Target
@@ -1722,6 +610,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Tuner"
+	@echo "... TunerExec"
 	@echo "... src/Demux.o"
 	@echo "... src/Demux.i"
 	@echo "... src/Demux.s"
@@ -1746,150 +635,6 @@ help:
 	@echo "... src/Tuner.o"
 	@echo "... src/Tuner.i"
 	@echo "... src/Tuner.s"
-	@echo "... src/jni/JetPlayer.o"
-	@echo "... src/jni/JetPlayer.i"
-	@echo "... src/jni/JetPlayer.s"
-	@echo "... src/jni/android_media_ImageReader.o"
-	@echo "... src/jni/android_media_ImageReader.i"
-	@echo "... src/jni/android_media_ImageReader.s"
-	@echo "... src/jni/android_media_ImageWriter.o"
-	@echo "... src/jni/android_media_ImageWriter.i"
-	@echo "... src/jni/android_media_ImageWriter.s"
-	@echo "... src/jni/android_media_JetPlayer.o"
-	@echo "... src/jni/android_media_JetPlayer.i"
-	@echo "... src/jni/android_media_JetPlayer.s"
-	@echo "... src/jni/android_media_MediaCodec.o"
-	@echo "... src/jni/android_media_MediaCodec.i"
-	@echo "... src/jni/android_media_MediaCodec.s"
-	@echo "... src/jni/android_media_MediaCodecList.o"
-	@echo "... src/jni/android_media_MediaCodecList.i"
-	@echo "... src/jni/android_media_MediaCodecList.s"
-	@echo "... src/jni/android_media_MediaCrypto.o"
-	@echo "... src/jni/android_media_MediaCrypto.i"
-	@echo "... src/jni/android_media_MediaCrypto.s"
-	@echo "... src/jni/android_media_MediaDataSource.o"
-	@echo "... src/jni/android_media_MediaDataSource.i"
-	@echo "... src/jni/android_media_MediaDataSource.s"
-	@echo "... src/jni/android_media_MediaDescrambler.o"
-	@echo "... src/jni/android_media_MediaDescrambler.i"
-	@echo "... src/jni/android_media_MediaDescrambler.s"
-	@echo "... src/jni/android_media_MediaDrm.o"
-	@echo "... src/jni/android_media_MediaDrm.i"
-	@echo "... src/jni/android_media_MediaDrm.s"
-	@echo "... src/jni/android_media_MediaExtractor.o"
-	@echo "... src/jni/android_media_MediaExtractor.i"
-	@echo "... src/jni/android_media_MediaExtractor.s"
-	@echo "... src/jni/android_media_MediaHTTPConnection.o"
-	@echo "... src/jni/android_media_MediaHTTPConnection.i"
-	@echo "... src/jni/android_media_MediaHTTPConnection.s"
-	@echo "... src/jni/android_media_MediaMetadataRetriever.o"
-	@echo "... src/jni/android_media_MediaMetadataRetriever.i"
-	@echo "... src/jni/android_media_MediaMetadataRetriever.s"
-	@echo "... src/jni/android_media_MediaMetricsJNI.o"
-	@echo "... src/jni/android_media_MediaMetricsJNI.i"
-	@echo "... src/jni/android_media_MediaMetricsJNI.s"
-	@echo "... src/jni/android_media_MediaMuxer.o"
-	@echo "... src/jni/android_media_MediaMuxer.i"
-	@echo "... src/jni/android_media_MediaMuxer.s"
-	@echo "... src/jni/android_media_MediaPlayer.o"
-	@echo "... src/jni/android_media_MediaPlayer.i"
-	@echo "... src/jni/android_media_MediaPlayer.s"
-	@echo "... src/jni/android_media_MediaProfiles.o"
-	@echo "... src/jni/android_media_MediaProfiles.i"
-	@echo "... src/jni/android_media_MediaProfiles.s"
-	@echo "... src/jni/android_media_MediaRecorder.o"
-	@echo "... src/jni/android_media_MediaRecorder.i"
-	@echo "... src/jni/android_media_MediaRecorder.s"
-	@echo "... src/jni/android_media_MediaSync.o"
-	@echo "... src/jni/android_media_MediaSync.i"
-	@echo "... src/jni/android_media_MediaSync.s"
-	@echo "... src/jni/android_media_ResampleInputStream.o"
-	@echo "... src/jni/android_media_ResampleInputStream.i"
-	@echo "... src/jni/android_media_ResampleInputStream.s"
-	@echo "... src/jni/android_media_Streams.o"
-	@echo "... src/jni/android_media_Streams.i"
-	@echo "... src/jni/android_media_Streams.s"
-	@echo "... src/jni/android_media_SyncParams.o"
-	@echo "... src/jni/android_media_SyncParams.i"
-	@echo "... src/jni/android_media_SyncParams.s"
-	@echo "... src/jni/android_media_Utils.o"
-	@echo "... src/jni/android_media_Utils.i"
-	@echo "... src/jni/android_media_Utils.s"
-	@echo "... src/jni/android_media_tv_Tuner.o"
-	@echo "... src/jni/android_media_tv_Tuner.i"
-	@echo "... src/jni/android_media_tv_Tuner.s"
-	@echo "... src/jni/android_mtp_MtpDatabase.o"
-	@echo "... src/jni/android_mtp_MtpDatabase.i"
-	@echo "... src/jni/android_mtp_MtpDatabase.s"
-	@echo "... src/jni/android_mtp_MtpDevice.o"
-	@echo "... src/jni/android_mtp_MtpDevice.i"
-	@echo "... src/jni/android_mtp_MtpDevice.s"
-	@echo "... src/jni/android_mtp_MtpServer.o"
-	@echo "... src/jni/android_mtp_MtpServer.i"
-	@echo "... src/jni/android_mtp_MtpServer.s"
-	@echo "... src/jni/audioeffect/Visualizer.o"
-	@echo "... src/jni/audioeffect/Visualizer.i"
-	@echo "... src/jni/audioeffect/Visualizer.s"
-	@echo "... src/jni/audioeffect/android_media_AudioEffect.o"
-	@echo "... src/jni/audioeffect/android_media_AudioEffect.i"
-	@echo "... src/jni/audioeffect/android_media_AudioEffect.s"
-	@echo "... src/jni/audioeffect/android_media_SourceDefaultEffect.o"
-	@echo "... src/jni/audioeffect/android_media_SourceDefaultEffect.i"
-	@echo "... src/jni/audioeffect/android_media_SourceDefaultEffect.s"
-	@echo "... src/jni/audioeffect/android_media_StreamDefaultEffect.o"
-	@echo "... src/jni/audioeffect/android_media_StreamDefaultEffect.i"
-	@echo "... src/jni/audioeffect/android_media_StreamDefaultEffect.s"
-	@echo "... src/jni/audioeffect/android_media_Visualizer.o"
-	@echo "... src/jni/audioeffect/android_media_Visualizer.i"
-	@echo "... src/jni/audioeffect/android_media_Visualizer.s"
-	@echo "... src/jni/soundpool/Sound.o"
-	@echo "... src/jni/soundpool/Sound.i"
-	@echo "... src/jni/soundpool/Sound.s"
-	@echo "... src/jni/soundpool/SoundDecoder.o"
-	@echo "... src/jni/soundpool/SoundDecoder.i"
-	@echo "... src/jni/soundpool/SoundDecoder.s"
-	@echo "... src/jni/soundpool/SoundManager.o"
-	@echo "... src/jni/soundpool/SoundManager.i"
-	@echo "... src/jni/soundpool/SoundManager.s"
-	@echo "... src/jni/soundpool/SoundPool.o"
-	@echo "... src/jni/soundpool/SoundPool.i"
-	@echo "... src/jni/soundpool/SoundPool.s"
-	@echo "... src/jni/soundpool/Stream.o"
-	@echo "... src/jni/soundpool/Stream.i"
-	@echo "... src/jni/soundpool/Stream.s"
-	@echo "... src/jni/soundpool/StreamManager.o"
-	@echo "... src/jni/soundpool/StreamManager.i"
-	@echo "... src/jni/soundpool/StreamManager.s"
-	@echo "... src/jni/soundpool/android_media_SoundPool.o"
-	@echo "... src/jni/soundpool/android_media_SoundPool.i"
-	@echo "... src/jni/soundpool/android_media_SoundPool.s"
-	@echo "... src/jni/soundpool/tests/soundpool_stress.o"
-	@echo "... src/jni/soundpool/tests/soundpool_stress.i"
-	@echo "... src/jni/soundpool/tests/soundpool_stress.s"
-	@echo "... src/jni/tuner/DemuxClient.o"
-	@echo "... src/jni/tuner/DemuxClient.i"
-	@echo "... src/jni/tuner/DemuxClient.s"
-	@echo "... src/jni/tuner/DescramblerClient.o"
-	@echo "... src/jni/tuner/DescramblerClient.i"
-	@echo "... src/jni/tuner/DescramblerClient.s"
-	@echo "... src/jni/tuner/DvrClient.o"
-	@echo "... src/jni/tuner/DvrClient.i"
-	@echo "... src/jni/tuner/DvrClient.s"
-	@echo "... src/jni/tuner/FilterClient.o"
-	@echo "... src/jni/tuner/FilterClient.i"
-	@echo "... src/jni/tuner/FilterClient.s"
-	@echo "... src/jni/tuner/FrontendClient.o"
-	@echo "... src/jni/tuner/FrontendClient.i"
-	@echo "... src/jni/tuner/FrontendClient.s"
-	@echo "... src/jni/tuner/LnbClient.o"
-	@echo "... src/jni/tuner/LnbClient.i"
-	@echo "... src/jni/tuner/LnbClient.s"
-	@echo "... src/jni/tuner/TimeFilterClient.o"
-	@echo "... src/jni/tuner/TimeFilterClient.i"
-	@echo "... src/jni/tuner/TimeFilterClient.s"
-	@echo "... src/jni/tuner/TunerClient.o"
-	@echo "... src/jni/tuner/TunerClient.i"
-	@echo "... src/jni/tuner/TunerClient.s"
 	@echo "... src/service.o"
 	@echo "... src/service.i"
 	@echo "... src/service.s"

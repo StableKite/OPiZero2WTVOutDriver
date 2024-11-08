@@ -27,18 +27,12 @@ import android.media.tv.tuner.TunerFilterSectionSettings;
  *
  * {@hide}
  */
-union TunerFilterSettings {
+parcelable TunerFilterSettings {
     boolean nothing;
-
     TunerFilterAvSettings av;
-
     TunerFilterSectionSettings section;
-
     TunerFilterPesDataSettings pesData;
-
     TunerFilterRecordSettings record;
-
     TunerFilterDownloadSettings download;
-
     boolean isPassthrough;
 }

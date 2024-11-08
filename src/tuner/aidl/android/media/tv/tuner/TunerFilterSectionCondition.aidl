@@ -24,8 +24,7 @@ import android.media.tv.tuner.TunerFilterSectionTableInfo;
  *
  * {@hide}
  */
-union TunerFilterSectionCondition {
+parcelable TunerFilterSectionCondition {
     TunerFilterSectionBits sectionBits;
-
     TunerFilterSectionTableInfo tableInfo;
 }

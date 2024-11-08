@@ -31,24 +31,15 @@ import android.media.tv.tuner.TunerFilterTsRecordEvent;
  *
  * {@hide}
  */
-union TunerFilterEvent {
+parcelable TunerFilterEvent {
     TunerFilterMediaEvent media;
-
     TunerFilterSectionEvent section;
-
     TunerFilterPesEvent pes;
-
     TunerFilterTsRecordEvent tsRecord;
-
     TunerFilterMmtpRecordEvent mmtpRecord;
-
     TunerFilterDownloadEvent download;
-
     TunerFilterIpPayloadEvent ipPayload;
-
     TunerFilterTemiEvent temi;
-
     TunerFilterMonitorEvent monitor;
-
     int startId;
 }

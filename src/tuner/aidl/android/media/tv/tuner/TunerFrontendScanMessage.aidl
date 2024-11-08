@@ -23,34 +23,20 @@ import android.media.tv.tuner.TunerFrontendScanAtsc3PlpInfo;
  *
  * {@hide}
  */
-union TunerFrontendScanMessage {
+parcelable TunerFrontendScanMessage {
     boolean isLocked;
-
     boolean isEnd;
-
     byte progressPercent;
-
     int[] frequencies;
-
     int[] symbolRates;
-
     int hierarchy;
-
     int analogType;
-
     byte[] plpIds;
-
     byte[] groupIds;
-
     char[] inputStreamIds;
-
     int std;
-
     TunerFrontendScanAtsc3PlpInfo[] atsc3PlpInfos;
-
     int modulation;
-
     int annex;
-
     boolean isHighPriority;
 }

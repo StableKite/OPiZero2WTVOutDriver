@@ -69,989 +69,134 @@ include CMakeFiles/Tuner.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Tuner.dir/flags.make
 
-CMakeFiles/Tuner.dir/src/Tuner.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/Tuner.cpp.o: /home/orangepi/TunerProject/src/Tuner.cpp
-CMakeFiles/Tuner.dir/src/Tuner.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tuner.dir/src/Tuner.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/Tuner.cpp.o -MF CMakeFiles/Tuner.dir/src/Tuner.cpp.o.d -o CMakeFiles/Tuner.dir/src/Tuner.cpp.o -c /home/orangepi/TunerProject/src/Tuner.cpp
-
-CMakeFiles/Tuner.dir/src/Tuner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/Tuner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Tuner.cpp > CMakeFiles/Tuner.dir/src/Tuner.cpp.i
-
-CMakeFiles/Tuner.dir/src/Tuner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/Tuner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Tuner.cpp -o CMakeFiles/Tuner.dir/src/Tuner.cpp.s
-
-CMakeFiles/Tuner.dir/src/Demux.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/Demux.cpp.o: /home/orangepi/TunerProject/src/Demux.cpp
-CMakeFiles/Tuner.dir/src/Demux.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tuner.dir/src/Demux.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/Demux.cpp.o -MF CMakeFiles/Tuner.dir/src/Demux.cpp.o.d -o CMakeFiles/Tuner.dir/src/Demux.cpp.o -c /home/orangepi/TunerProject/src/Demux.cpp
-
-CMakeFiles/Tuner.dir/src/Demux.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/Demux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Demux.cpp > CMakeFiles/Tuner.dir/src/Demux.cpp.i
-
-CMakeFiles/Tuner.dir/src/Demux.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/Demux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Demux.cpp -o CMakeFiles/Tuner.dir/src/Demux.cpp.s
-
-CMakeFiles/Tuner.dir/src/Frontend.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/Frontend.cpp.o: /home/orangepi/TunerProject/src/Frontend.cpp
-CMakeFiles/Tuner.dir/src/Frontend.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tuner.dir/src/Frontend.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/Frontend.cpp.o -MF CMakeFiles/Tuner.dir/src/Frontend.cpp.o.d -o CMakeFiles/Tuner.dir/src/Frontend.cpp.o -c /home/orangepi/TunerProject/src/Frontend.cpp
-
-CMakeFiles/Tuner.dir/src/Frontend.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/Frontend.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Frontend.cpp > CMakeFiles/Tuner.dir/src/Frontend.cpp.i
-
-CMakeFiles/Tuner.dir/src/Frontend.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/Frontend.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Frontend.cpp -o CMakeFiles/Tuner.dir/src/Frontend.cpp.s
-
-CMakeFiles/Tuner.dir/src/Descrambler.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/Descrambler.cpp.o: /home/orangepi/TunerProject/src/Descrambler.cpp
-CMakeFiles/Tuner.dir/src/Descrambler.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tuner.dir/src/Descrambler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/Descrambler.cpp.o -MF CMakeFiles/Tuner.dir/src/Descrambler.cpp.o.d -o CMakeFiles/Tuner.dir/src/Descrambler.cpp.o -c /home/orangepi/TunerProject/src/Descrambler.cpp
-
-CMakeFiles/Tuner.dir/src/Descrambler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/Descrambler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Descrambler.cpp > CMakeFiles/Tuner.dir/src/Descrambler.cpp.i
-
-CMakeFiles/Tuner.dir/src/Descrambler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/Descrambler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Descrambler.cpp -o CMakeFiles/Tuner.dir/src/Descrambler.cpp.s
-
-CMakeFiles/Tuner.dir/src/Lnb.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/Lnb.cpp.o: /home/orangepi/TunerProject/src/Lnb.cpp
-CMakeFiles/Tuner.dir/src/Lnb.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tuner.dir/src/Lnb.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/Lnb.cpp.o -MF CMakeFiles/Tuner.dir/src/Lnb.cpp.o.d -o CMakeFiles/Tuner.dir/src/Lnb.cpp.o -c /home/orangepi/TunerProject/src/Lnb.cpp
-
-CMakeFiles/Tuner.dir/src/Lnb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/Lnb.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Lnb.cpp > CMakeFiles/Tuner.dir/src/Lnb.cpp.i
-
-CMakeFiles/Tuner.dir/src/Lnb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/Lnb.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Lnb.cpp -o CMakeFiles/Tuner.dir/src/Lnb.cpp.s
-
-CMakeFiles/Tuner.dir/src/Filter.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/Filter.cpp.o: /home/orangepi/TunerProject/src/Filter.cpp
-CMakeFiles/Tuner.dir/src/Filter.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tuner.dir/src/Filter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/Filter.cpp.o -MF CMakeFiles/Tuner.dir/src/Filter.cpp.o.d -o CMakeFiles/Tuner.dir/src/Filter.cpp.o -c /home/orangepi/TunerProject/src/Filter.cpp
-
-CMakeFiles/Tuner.dir/src/Filter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/Filter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Filter.cpp > CMakeFiles/Tuner.dir/src/Filter.cpp.i
-
-CMakeFiles/Tuner.dir/src/Filter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/Filter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Filter.cpp -o CMakeFiles/Tuner.dir/src/Filter.cpp.s
-
-CMakeFiles/Tuner.dir/src/Dvr.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/Dvr.cpp.o: /home/orangepi/TunerProject/src/Dvr.cpp
-CMakeFiles/Tuner.dir/src/Dvr.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tuner.dir/src/Dvr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/Dvr.cpp.o -MF CMakeFiles/Tuner.dir/src/Dvr.cpp.o.d -o CMakeFiles/Tuner.dir/src/Dvr.cpp.o -c /home/orangepi/TunerProject/src/Dvr.cpp
-
-CMakeFiles/Tuner.dir/src/Dvr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/Dvr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Dvr.cpp > CMakeFiles/Tuner.dir/src/Dvr.cpp.i
-
-CMakeFiles/Tuner.dir/src/Dvr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/Dvr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Dvr.cpp -o CMakeFiles/Tuner.dir/src/Dvr.cpp.s
-
-CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o: /home/orangepi/TunerProject/src/TimeFilter.cpp
-CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o -MF CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o.d -o CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o -c /home/orangepi/TunerProject/src/TimeFilter.cpp
-
-CMakeFiles/Tuner.dir/src/TimeFilter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/TimeFilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/TimeFilter.cpp > CMakeFiles/Tuner.dir/src/TimeFilter.cpp.i
-
-CMakeFiles/Tuner.dir/src/TimeFilter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/TimeFilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/TimeFilter.cpp -o CMakeFiles/Tuner.dir/src/TimeFilter.cpp.s
-
-CMakeFiles/Tuner.dir/src/service.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/service.cpp.o: /home/orangepi/TunerProject/src/service.cpp
-CMakeFiles/Tuner.dir/src/service.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tuner.dir/src/service.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/service.cpp.o -MF CMakeFiles/Tuner.dir/src/service.cpp.o.d -o CMakeFiles/Tuner.dir/src/service.cpp.o -c /home/orangepi/TunerProject/src/service.cpp
-
-CMakeFiles/Tuner.dir/src/service.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/service.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/service.cpp > CMakeFiles/Tuner.dir/src/service.cpp.i
-
-CMakeFiles/Tuner.dir/src/service.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/service.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/service.cpp -o CMakeFiles/Tuner.dir/src/service.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o: /home/orangepi/TunerProject/src/jni/JetPlayer.cpp
-CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o -c /home/orangepi/TunerProject/src/jni/JetPlayer.cpp
-
-CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/JetPlayer.cpp > CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/JetPlayer.cpp -o CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_ImageReader.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_ImageReader.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_ImageReader.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_ImageReader.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_ImageWriter.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_ImageWriter.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_ImageWriter.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_ImageWriter.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_JetPlayer.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_JetPlayer.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_JetPlayer.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_JetPlayer.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaCodec.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaCodec.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaCodec.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaCodec.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaCodecList.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaCodecList.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaCodecList.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaCodecList.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaCrypto.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaCrypto.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaCrypto.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaCrypto.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaDataSource.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaDataSource.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaDataSource.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaDataSource.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaDescrambler.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaDescrambler.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaDescrambler.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaDescrambler.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaDrm.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaDrm.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaDrm.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaDrm.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaExtractor.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaExtractor.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaExtractor.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaExtractor.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaHTTPConnection.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaHTTPConnection.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaHTTPConnection.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaHTTPConnection.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaMetadataRetriever.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaMetadataRetriever.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaMetadataRetriever.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaMetadataRetriever.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaMetricsJNI.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaMetricsJNI.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaMetricsJNI.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaMetricsJNI.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaMuxer.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaMuxer.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaMuxer.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaMuxer.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaPlayer.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaPlayer.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaPlayer.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaPlayer.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaProfiles.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaProfiles.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaProfiles.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaProfiles.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaRecorder.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaRecorder.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaRecorder.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaRecorder.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_MediaSync.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_MediaSync.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_MediaSync.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_MediaSync.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_ResampleInputStream.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_ResampleInputStream.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_ResampleInputStream.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_ResampleInputStream.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_Streams.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_Streams.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_Streams.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_Streams.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_SyncParams.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_SyncParams.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_SyncParams.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_SyncParams.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_Utils.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_Utils.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_Utils.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_Utils.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o: /home/orangepi/TunerProject/src/jni/android_media_tv_Tuner.cpp
-CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o -c /home/orangepi/TunerProject/src/jni/android_media_tv_Tuner.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_media_tv_Tuner.cpp > CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_media_tv_Tuner.cpp -o CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o: /home/orangepi/TunerProject/src/jni/android_mtp_MtpDatabase.cpp
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o -c /home/orangepi/TunerProject/src/jni/android_mtp_MtpDatabase.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_mtp_MtpDatabase.cpp > CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_mtp_MtpDatabase.cpp -o CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o: /home/orangepi/TunerProject/src/jni/android_mtp_MtpDevice.cpp
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o -c /home/orangepi/TunerProject/src/jni/android_mtp_MtpDevice.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_mtp_MtpDevice.cpp > CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_mtp_MtpDevice.cpp -o CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o: /home/orangepi/TunerProject/src/jni/android_mtp_MtpServer.cpp
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o -c /home/orangepi/TunerProject/src/jni/android_mtp_MtpServer.cpp
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/android_mtp_MtpServer.cpp > CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/android_mtp_MtpServer.cpp -o CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o: /home/orangepi/TunerProject/src/jni/audioeffect/Visualizer.cpp
-CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o -c /home/orangepi/TunerProject/src/jni/audioeffect/Visualizer.cpp
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/audioeffect/Visualizer.cpp > CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/audioeffect/Visualizer.cpp -o CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o: /home/orangepi/TunerProject/src/jni/audioeffect/android_media_AudioEffect.cpp
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o -c /home/orangepi/TunerProject/src/jni/audioeffect/android_media_AudioEffect.cpp
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/audioeffect/android_media_AudioEffect.cpp > CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/audioeffect/android_media_AudioEffect.cpp -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o: /home/orangepi/TunerProject/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o -c /home/orangepi/TunerProject/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp > CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o: /home/orangepi/TunerProject/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o -c /home/orangepi/TunerProject/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp > CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o: /home/orangepi/TunerProject/src/jni/audioeffect/android_media_Visualizer.cpp
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o -c /home/orangepi/TunerProject/src/jni/audioeffect/android_media_Visualizer.cpp
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/audioeffect/android_media_Visualizer.cpp > CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/audioeffect/android_media_Visualizer.cpp -o CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/Sound.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/Sound.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/Sound.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/Sound.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/SoundDecoder.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/SoundDecoder.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/SoundDecoder.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/SoundDecoder.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/SoundManager.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/SoundManager.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/SoundManager.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/SoundManager.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/SoundPool.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/SoundPool.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/SoundPool.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/SoundPool.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/Stream.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/Stream.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/Stream.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/Stream.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/StreamManager.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/StreamManager.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/StreamManager.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/StreamManager.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/android_media_SoundPool.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/android_media_SoundPool.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/android_media_SoundPool.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/android_media_SoundPool.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o: /home/orangepi/TunerProject/src/jni/soundpool/tests/soundpool_stress.cpp
-CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o -c /home/orangepi/TunerProject/src/jni/soundpool/tests/soundpool_stress.cpp
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/soundpool/tests/soundpool_stress.cpp > CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/soundpool/tests/soundpool_stress.cpp -o CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/DemuxClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/DemuxClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/DemuxClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/DemuxClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/DescramblerClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/DescramblerClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/DescramblerClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/DescramblerClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/DvrClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/DvrClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/DvrClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/DvrClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/FilterClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/FilterClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/FilterClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/FilterClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/FrontendClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/FrontendClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/FrontendClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/FrontendClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/LnbClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/LnbClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/LnbClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/LnbClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/TimeFilterClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/TimeFilterClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/TimeFilterClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/TimeFilterClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.s
-
-CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o: CMakeFiles/Tuner.dir/flags.make
-CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o: /home/orangepi/TunerProject/src/jni/tuner/TunerClient.cpp
-CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o -MF CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o.d -o CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o -c /home/orangepi/TunerProject/src/jni/tuner/TunerClient.cpp
-
-CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/jni/tuner/TunerClient.cpp > CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.i
-
-CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/jni/tuner/TunerClient.cpp -o CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.s
-
 CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerService.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerService.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerService.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerService.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerService.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerService.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp
 CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp > CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp -o CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.s
 
 CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o: CMakeFiles/Tuner.dir/flags.make
 CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o: /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp
 CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o: CMakeFiles/Tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o -c /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o"
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o -MF CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o.d -o CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o -c /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp
 
 CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp > CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.i
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp > CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.i
 
 CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp -o CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.s
+	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp -o CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.s
 
 # Object files for target Tuner
 Tuner_OBJECTS = \
-"CMakeFiles/Tuner.dir/src/Tuner.cpp.o" \
-"CMakeFiles/Tuner.dir/src/Demux.cpp.o" \
-"CMakeFiles/Tuner.dir/src/Frontend.cpp.o" \
-"CMakeFiles/Tuner.dir/src/Descrambler.cpp.o" \
-"CMakeFiles/Tuner.dir/src/Lnb.cpp.o" \
-"CMakeFiles/Tuner.dir/src/Filter.cpp.o" \
-"CMakeFiles/Tuner.dir/src/Dvr.cpp.o" \
-"CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o" \
-"CMakeFiles/Tuner.dir/src/service.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o" \
-"CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o" \
 "CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o" \
 "CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o" \
 "CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o" \
@@ -1065,79 +210,23 @@ Tuner_OBJECTS = \
 # External object files for target Tuner
 Tuner_EXTERNAL_OBJECTS =
 
-Tuner: CMakeFiles/Tuner.dir/src/Tuner.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/Demux.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/Frontend.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/Descrambler.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/Lnb.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/Filter.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/Dvr.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/TimeFilter.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/service.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/JetPlayer.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_ImageReader.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_ImageWriter.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_JetPlayer.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodec.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaCodecList.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaCrypto.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaDataSource.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaDescrambler.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaDrm.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaExtractor.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaHTTPConnection.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetadataRetriever.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaMetricsJNI.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaMuxer.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaPlayer.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaProfiles.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaRecorder.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_MediaSync.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_ResampleInputStream.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_Streams.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_SyncParams.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_Utils.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_media_tv_Tuner.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDatabase.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpDevice.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/android_mtp_MtpServer.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/audioeffect/Visualizer.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_AudioEffect.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_SourceDefaultEffect.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_StreamDefaultEffect.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/audioeffect/android_media_Visualizer.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/Sound.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/SoundDecoder.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/SoundManager.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/SoundPool.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/Stream.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/StreamManager.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/android_media_SoundPool.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/soundpool/tests/soundpool_stress.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/DemuxClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/DescramblerClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/DvrClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/FilterClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/FrontendClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/LnbClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/TimeFilterClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/jni/tuner/TunerClient.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o
-Tuner: CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o
-Tuner: CMakeFiles/Tuner.dir/build.make
-Tuner: CMakeFiles/Tuner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX executable Tuner"
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerDemux.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerDvr.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerFilter.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerFrontend.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerLnb.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerService.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/TunerTimeFilter.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/src/tuner/main_tunerservice.cpp.o
+libTuner.a: CMakeFiles/Tuner.dir/build.make
+libTuner.a: CMakeFiles/Tuner.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libTuner.a"
+	$(CMAKE_COMMAND) -P CMakeFiles/Tuner.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tuner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Tuner.dir/build: Tuner
+CMakeFiles/Tuner.dir/build: libTuner.a
 .PHONY : CMakeFiles/Tuner.dir/build
 
 CMakeFiles/Tuner.dir/clean:

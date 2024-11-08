@@ -32,7 +32,7 @@ import android.media.tv.tuner.TunerFrontendIsdbtSettings;
  *
  * {@hide}
  */
-union TunerFrontendUnionSettings {
+parcelable TunerFrontendUnionSettings {
     TunerFrontendAnalogSettings analog;
 
     TunerFrontendAtscSettings atsc;

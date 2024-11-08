@@ -21,14 +21,7 @@ package android.media.tv.tuner;
  *
  * {@hide}
  */
-union TunerFilterMonitorEvent {
-    /**
-     * New scrambling status.
-     */
+parcelable TunerFilterMonitorEvent {
     int scramblingStatus;
-
-    /**
-     * New cid for the IP filter.
-     */
     int cid;
 }

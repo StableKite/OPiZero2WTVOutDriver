@@ -1,97 +1,86 @@
-/**
- * Copyright 2021, The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+#ifndef MYNAMESPACE_TUNERDVR_H
+#define MYNAMESPACE_TUNERDVR_H
 
-#ifndef ANDROID_MEDIA_TUNERDVR_H
-#define ANDROID_MEDIA_TUNERDVR_H
+#include <memory> // std::shared_ptr
+#include <vector> // std::vector
+#include <functional> // std::function, std::bind
+#include <string> // std::string
 
-#include <aidl/android/media/tv/tuner/BnTunerDvr.h>
-#include <aidl/android/media/tv/tuner/ITunerDvrCallback.h>
-#include <android/hardware/tv/tuner/1.0/ITuner.h>
-#include <fmq/MessageQueue.h>
+using Status = int; // Заменим на int, если нет аналогичного типа для статуса
 
-#include <TunerFilter.h>
+class IDvr;
+class ITunerFilter;
+class ITunerDvrCallback;
+enum class RecordStatus;
+enum class PlaybackStatus;
 
-using Status = ::ndk::ScopedAStatus;
-using ::aidl::android::hardware::common::fmq::GrantorDescriptor;
-using ::aidl::android::hardware::common::fmq::MQDescriptor;
-using ::aidl::android::hardware::common::fmq::SynchronizedReadWrite;
-using ::aidl::android::media::tv::tuner::BnTunerDvr;
-using ::aidl::android::media::tv::tuner::ITunerDvrCallback;
-using ::aidl::android::media::tv::tuner::ITunerFilter;
-using ::aidl::android::media::tv::tuner::TunerDvrSettings;
+namespace mynamespace {
 
-using ::android::hardware::MQDescriptorSync;
-using ::android::hardware::MessageQueue;
-using ::android::hardware::Return;
-using ::android::hardware::Void;
+class TunerDvrSettings {
+public:
+    enum Mode {
+        RECORD,
+        PLAYBACK
+    };
 
-using ::android::hardware::tv::tuner::V1_0::DvrSettings;
-using ::android::hardware::tv::tuner::V1_0::DvrType;
-using ::android::hardware::tv::tuner::V1_0::IDvr;
-using ::android::hardware::tv::tuner::V1_0::IDvrCallback;
-using ::android::hardware::tv::tuner::V1_0::PlaybackStatus;
-using ::android::hardware::tv::tuner::V1_0::RecordStatus;
+    TunerDvrSettings();
+    ~TunerDvrSettings();
 
-using namespace std;
+    void setMode(Mode mode);
+    Mode getMode() const;
 
-namespace android {
+    void setBufferSize(int bufferSize);
+    int getBufferSize() const;
 
-using MQDesc = MQDescriptorSync<uint8_t>;
-using AidlMQDesc = MQDescriptor<int8_t, SynchronizedReadWrite>;
+    void setFilePath(const std::string& filePath);
+    std::string getFilePath() const;
 
-class TunerDvr : public BnTunerDvr {
+private:
+    Mode mMode;
+    int mBufferSize;
+    std::string mFilePath;
+};
+
+class TunerDvr {
 
 public:
-    TunerDvr(sp<IDvr> dvr, int type);
+    TunerDvr(std::shared_ptr<IDvr> dvr, int type);
     ~TunerDvr();
 
-    Status getQueueDesc(AidlMQDesc* _aidl_return) override;
+    Status getQueueDesc(void* _aidl_return);
 
-    Status configure(const TunerDvrSettings& settings) override;
+    Status configure(const TunerDvrSettings& settings);
 
-    Status attachFilter(const shared_ptr<ITunerFilter>& filter) override;
+    Status attachFilter(const std::shared_ptr<ITunerFilter>& filter);
 
-    Status detachFilter(const shared_ptr<ITunerFilter>& filter) override;
+    Status detachFilter(const std::shared_ptr<ITunerFilter>& filter);
 
-    Status start() override;
+    Status start();
 
-    Status stop() override;
+    Status stop();
 
-    Status flush() override;
+    Status flush();
 
-    Status close() override;
+    Status close();
 
-    struct DvrCallback : public IDvrCallback {
-        DvrCallback(const shared_ptr<ITunerDvrCallback> tunerDvrCallback)
-                : mTunerDvrCallback(tunerDvrCallback) {};
+    struct DvrCallback {
+        DvrCallback(const std::shared_ptr<ITunerDvrCallback> tunerDvrCallback)
+                : mTunerDvrCallback(tunerDvrCallback) {}
 
-        virtual Return<void> onRecordStatus(const RecordStatus status);
-        virtual Return<void> onPlaybackStatus(const PlaybackStatus status);
+        void onRecordStatus(const RecordStatus status);
+        void onPlaybackStatus(const PlaybackStatus status);
 
         private:
-            shared_ptr<ITunerDvrCallback> mTunerDvrCallback;
+            std::shared_ptr<ITunerDvrCallback> mTunerDvrCallback;
     };
 
 private:
-    DvrSettings getHidlDvrSettingsFromAidl(TunerDvrSettings settings);
+    void getDvrSettingsFromTunerDvrSettings(const TunerDvrSettings& settings);
 
-    sp<IDvr> mDvr;
-    DvrType mType;
+    std::shared_ptr<IDvr> mDvr;
+    int mType;
 };
 
-} // namespace android
+} // namespace mynamespace
 
-#endif // ANDROID_MEDIA_TUNERDVR_H
+#endif // MYNAMESPACE_TUNERDVR_H
