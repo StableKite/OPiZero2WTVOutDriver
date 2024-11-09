@@ -69,136 +69,10 @@ include CMakeFiles/TunerExec.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TunerExec.dir/flags.make
 
-CMakeFiles/TunerExec.dir/src/Tuner.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/Tuner.cpp.o: /home/orangepi/TunerProject/src/Tuner.cpp
-CMakeFiles/TunerExec.dir/src/Tuner.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TunerExec.dir/src/Tuner.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/Tuner.cpp.o -MF CMakeFiles/TunerExec.dir/src/Tuner.cpp.o.d -o CMakeFiles/TunerExec.dir/src/Tuner.cpp.o -c /home/orangepi/TunerProject/src/Tuner.cpp
-
-CMakeFiles/TunerExec.dir/src/Tuner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/Tuner.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Tuner.cpp > CMakeFiles/TunerExec.dir/src/Tuner.cpp.i
-
-CMakeFiles/TunerExec.dir/src/Tuner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/Tuner.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Tuner.cpp -o CMakeFiles/TunerExec.dir/src/Tuner.cpp.s
-
-CMakeFiles/TunerExec.dir/src/Demux.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/Demux.cpp.o: /home/orangepi/TunerProject/src/Demux.cpp
-CMakeFiles/TunerExec.dir/src/Demux.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TunerExec.dir/src/Demux.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/Demux.cpp.o -MF CMakeFiles/TunerExec.dir/src/Demux.cpp.o.d -o CMakeFiles/TunerExec.dir/src/Demux.cpp.o -c /home/orangepi/TunerProject/src/Demux.cpp
-
-CMakeFiles/TunerExec.dir/src/Demux.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/Demux.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Demux.cpp > CMakeFiles/TunerExec.dir/src/Demux.cpp.i
-
-CMakeFiles/TunerExec.dir/src/Demux.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/Demux.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Demux.cpp -o CMakeFiles/TunerExec.dir/src/Demux.cpp.s
-
-CMakeFiles/TunerExec.dir/src/Frontend.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/Frontend.cpp.o: /home/orangepi/TunerProject/src/Frontend.cpp
-CMakeFiles/TunerExec.dir/src/Frontend.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TunerExec.dir/src/Frontend.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/Frontend.cpp.o -MF CMakeFiles/TunerExec.dir/src/Frontend.cpp.o.d -o CMakeFiles/TunerExec.dir/src/Frontend.cpp.o -c /home/orangepi/TunerProject/src/Frontend.cpp
-
-CMakeFiles/TunerExec.dir/src/Frontend.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/Frontend.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Frontend.cpp > CMakeFiles/TunerExec.dir/src/Frontend.cpp.i
-
-CMakeFiles/TunerExec.dir/src/Frontend.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/Frontend.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Frontend.cpp -o CMakeFiles/TunerExec.dir/src/Frontend.cpp.s
-
-CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o: /home/orangepi/TunerProject/src/Descrambler.cpp
-CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o -MF CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o.d -o CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o -c /home/orangepi/TunerProject/src/Descrambler.cpp
-
-CMakeFiles/TunerExec.dir/src/Descrambler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/Descrambler.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Descrambler.cpp > CMakeFiles/TunerExec.dir/src/Descrambler.cpp.i
-
-CMakeFiles/TunerExec.dir/src/Descrambler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/Descrambler.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Descrambler.cpp -o CMakeFiles/TunerExec.dir/src/Descrambler.cpp.s
-
-CMakeFiles/TunerExec.dir/src/Lnb.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/Lnb.cpp.o: /home/orangepi/TunerProject/src/Lnb.cpp
-CMakeFiles/TunerExec.dir/src/Lnb.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TunerExec.dir/src/Lnb.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/Lnb.cpp.o -MF CMakeFiles/TunerExec.dir/src/Lnb.cpp.o.d -o CMakeFiles/TunerExec.dir/src/Lnb.cpp.o -c /home/orangepi/TunerProject/src/Lnb.cpp
-
-CMakeFiles/TunerExec.dir/src/Lnb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/Lnb.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Lnb.cpp > CMakeFiles/TunerExec.dir/src/Lnb.cpp.i
-
-CMakeFiles/TunerExec.dir/src/Lnb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/Lnb.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Lnb.cpp -o CMakeFiles/TunerExec.dir/src/Lnb.cpp.s
-
-CMakeFiles/TunerExec.dir/src/Filter.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/Filter.cpp.o: /home/orangepi/TunerProject/src/Filter.cpp
-CMakeFiles/TunerExec.dir/src/Filter.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TunerExec.dir/src/Filter.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/Filter.cpp.o -MF CMakeFiles/TunerExec.dir/src/Filter.cpp.o.d -o CMakeFiles/TunerExec.dir/src/Filter.cpp.o -c /home/orangepi/TunerProject/src/Filter.cpp
-
-CMakeFiles/TunerExec.dir/src/Filter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/Filter.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Filter.cpp > CMakeFiles/TunerExec.dir/src/Filter.cpp.i
-
-CMakeFiles/TunerExec.dir/src/Filter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/Filter.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Filter.cpp -o CMakeFiles/TunerExec.dir/src/Filter.cpp.s
-
-CMakeFiles/TunerExec.dir/src/Dvr.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/Dvr.cpp.o: /home/orangepi/TunerProject/src/Dvr.cpp
-CMakeFiles/TunerExec.dir/src/Dvr.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TunerExec.dir/src/Dvr.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/Dvr.cpp.o -MF CMakeFiles/TunerExec.dir/src/Dvr.cpp.o.d -o CMakeFiles/TunerExec.dir/src/Dvr.cpp.o -c /home/orangepi/TunerProject/src/Dvr.cpp
-
-CMakeFiles/TunerExec.dir/src/Dvr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/Dvr.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/Dvr.cpp > CMakeFiles/TunerExec.dir/src/Dvr.cpp.i
-
-CMakeFiles/TunerExec.dir/src/Dvr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/Dvr.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/Dvr.cpp -o CMakeFiles/TunerExec.dir/src/Dvr.cpp.s
-
-CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o: /home/orangepi/TunerProject/src/TimeFilter.cpp
-CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o -MF CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o.d -o CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o -c /home/orangepi/TunerProject/src/TimeFilter.cpp
-
-CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/TimeFilter.cpp > CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.i
-
-CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/TimeFilter.cpp -o CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.s
-
-CMakeFiles/TunerExec.dir/src/service.cpp.o: CMakeFiles/TunerExec.dir/flags.make
-CMakeFiles/TunerExec.dir/src/service.cpp.o: /home/orangepi/TunerProject/src/service.cpp
-CMakeFiles/TunerExec.dir/src/service.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TunerExec.dir/src/service.cpp.o"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/service.cpp.o -MF CMakeFiles/TunerExec.dir/src/service.cpp.o.d -o CMakeFiles/TunerExec.dir/src/service.cpp.o -c /home/orangepi/TunerProject/src/service.cpp
-
-CMakeFiles/TunerExec.dir/src/service.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TunerExec.dir/src/service.cpp.i"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/TunerProject/src/service.cpp > CMakeFiles/TunerExec.dir/src/service.cpp.i
-
-CMakeFiles/TunerExec.dir/src/service.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TunerExec.dir/src/service.cpp.s"
-	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/TunerProject/src/service.cpp -o CMakeFiles/TunerExec.dir/src/service.cpp.s
-
 CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDemux.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.i: cmake_force
@@ -212,7 +86,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.i: cmake_force
@@ -226,7 +100,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerDvr.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.i: cmake_force
@@ -240,7 +114,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerFilter.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.i: cmake_force
@@ -254,7 +128,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerFilter.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerFrontend.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.i: cmake_force
@@ -268,7 +142,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerFrontend.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerLnb.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.i: cmake_force
@@ -282,7 +156,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerLnb.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerService.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerService.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.i: cmake_force
@@ -296,7 +170,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerService.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o: /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp
 CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.o -c /home/orangepi/TunerProject/src/tuner/TunerTimeFilter.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.i: cmake_force
@@ -310,7 +184,7 @@ CMakeFiles/TunerExec.dir/src/tuner/TunerTimeFilter.cpp.s: cmake_force
 CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o: CMakeFiles/TunerExec.dir/flags.make
 CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o: /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp
 CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o: CMakeFiles/TunerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o"
 	aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o -MF CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o.d -o CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o -c /home/orangepi/TunerProject/src/tuner/main_tunerservice.cpp
 
 CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.i: cmake_force
@@ -323,15 +197,6 @@ CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.s: cmake_force
 
 # Object files for target TunerExec
 TunerExec_OBJECTS = \
-"CMakeFiles/TunerExec.dir/src/Tuner.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/Demux.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/Frontend.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/Lnb.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/Filter.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/Dvr.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o" \
-"CMakeFiles/TunerExec.dir/src/service.cpp.o" \
 "CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o" \
 "CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o" \
 "CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o" \
@@ -345,15 +210,6 @@ TunerExec_OBJECTS = \
 # External object files for target TunerExec
 TunerExec_EXTERNAL_OBJECTS =
 
-TunerExec: CMakeFiles/TunerExec.dir/src/Tuner.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/Demux.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/Frontend.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/Lnb.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/Filter.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/Dvr.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o
-TunerExec: CMakeFiles/TunerExec.dir/src/service.cpp.o
 TunerExec: CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o
 TunerExec: CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o
 TunerExec: CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o
@@ -366,7 +222,7 @@ TunerExec: CMakeFiles/TunerExec.dir/src/tuner/main_tunerservice.cpp.o
 TunerExec: CMakeFiles/TunerExec.dir/build.make
 TunerExec: libTuner.a
 TunerExec: CMakeFiles/TunerExec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable TunerExec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TunerExec"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TunerExec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

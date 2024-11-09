@@ -185,14 +185,18 @@ static inline bool operator!=(const ::android::hidl::base::V1_0::DebugInfo& lhs,
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hidl::base::V1_0::DebugInfo::Architecture, 3> hidl_enum_values<::android::hidl::base::V1_0::DebugInfo::Architecture> = {
     ::android::hidl::base::V1_0::DebugInfo::Architecture::UNKNOWN,
     ::android::hidl::base::V1_0::DebugInfo::Architecture::IS_64BIT,
     ::android::hidl::base::V1_0::DebugInfo::Architecture::IS_32BIT,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android

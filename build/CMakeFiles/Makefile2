@@ -109,12 +109,12 @@ CMakeFiles/Tuner.dir/clean:
 CMakeFiles/TunerExec.dir/all: CMakeFiles/Tuner.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TunerExec.dir/build.make CMakeFiles/TunerExec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target TunerExec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/orangepi/TunerProject/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20 "Built target TunerExec"
 .PHONY : CMakeFiles/TunerExec.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TunerExec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/TunerProject/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/TunerProject/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TunerExec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/TunerProject/build/CMakeFiles 0
 .PHONY : CMakeFiles/TunerExec.dir/rule

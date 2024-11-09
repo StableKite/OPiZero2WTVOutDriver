@@ -1,50 +1,38 @@
-/*
- * Copyright (C) 2019 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-#define LOG_TAG "android.hardware.tv.tuner@1.0-Tuner"
+#define LOG_TAG "Tuner"
 
 #include "Tuner.h"
-#include <android/hardware/tv/tuner/1.0/IFrontendCallback.h>
-#include <utils/Log.h>
 #include "Demux.h"
 #include "Descrambler.h"
 #include "Frontend.h"
 #include "Lnb.h"
+#include <iostream>
 
-namespace android {
+#define ALOGV(msg) std::cout << msg << std::endl
+#define ALOGW(msg) std::cerr << msg << std::endl
+#define ALOGE(msg) std::cerr << msg << std::endl
+#define ALOGD(msg) std::cout << msg << std::endl
+
+namespace tuner_project {
 namespace hardware {
 namespace tv {
 namespace tuner {
 namespace V1_0 {
 namespace implementation {
 
-using ::android::hardware::tv::tuner::V1_0::DemuxId;
+using tuner_project::DemuxId;
 
 Tuner::Tuner() {
     // Static Frontends array to maintain local frontends information
     // Array index matches their FrontendId in the default impl
     mFrontendSize = 8;
-    mFrontends[0] = new Frontend(FrontendType::DVBT, 0, this);
-    mFrontends[1] = new Frontend(FrontendType::ATSC, 1, this);
-    mFrontends[2] = new Frontend(FrontendType::DVBC, 2, this);
-    mFrontends[3] = new Frontend(FrontendType::DVBS, 3, this);
-    mFrontends[4] = new Frontend(FrontendType::DVBT, 4, this);
-    mFrontends[5] = new Frontend(FrontendType::ISDBT, 5, this);
-    mFrontends[6] = new Frontend(FrontendType::ANALOG, 6, this);
-    mFrontends[7] = new Frontend(FrontendType::ATSC, 7, this);
+    mFrontends[0] = std::make_shared<Frontend>(FrontendType::DVBT, 0, this);
+    mFrontends[1] = std::make_shared<Frontend>(FrontendType::ATSC, 1, this);
+    mFrontends[2] = std::make_shared<Frontend>(FrontendType::DVBC, 2, this);
+    mFrontends[3] = std::make_shared<Frontend>(FrontendType::DVBS, 3, this);
+    mFrontends[4] = std::make_shared<Frontend>(FrontendType::DVBT, 4, this);
+    mFrontends[5] = std::make_shared<Frontend>(FrontendType::ISDBT, 5, this);
+    mFrontends[6] = std::make_shared<Frontend>(FrontendType::ANALOG, 6, this);
+    mFrontends[7] = std::make_shared<Frontend>(FrontendType::ATSC, 7, this);
 
     FrontendInfo::FrontendCapabilities caps;
     caps = FrontendInfo::FrontendCapabilities();
@@ -88,8 +76,8 @@ Tuner::Tuner() {
     mFrontendCaps[7] = caps;
 
     mLnbs.resize(2);
-    mLnbs[0] = new Lnb(0);
-    mLnbs[1] = new Lnb(1);
+    mLnbs[0] = std::make_shared<Lnb>(0);
+    mLnbs[1] = std::make_shared<Lnb>(1);
 }
 
 Tuner::~Tuner() {}
@@ -125,7 +113,7 @@ Return<void> Tuner::openDemux(openDemux_cb _hidl_cb) {
 
     DemuxId demuxId = mLastUsedId + 1;
     mLastUsedId += 1;
-    sp<Demux> demux = new Demux(demuxId, this);
+    std::shared_ptr<Demux> demux = std::make_shared<Demux>(demuxId, this);
     mDemuxes[demuxId] = demux;
 
     _hidl_cb(Result::SUCCESS, demuxId, demux);
@@ -148,7 +136,7 @@ Return<void> Tuner::getDemuxCaps(getDemuxCaps_cb _hidl_cb) {
 Return<void> Tuner::openDescrambler(openDescrambler_cb _hidl_cb) {
     ALOGV("%s", __FUNCTION__);
 
-    sp<IDescrambler> descrambler = new Descrambler();
+    std::shared_ptr<IDescrambler> descrambler = std::make_shared<Descrambler>();
 
     _hidl_cb(Result::SUCCESS, descrambler);
     return Void();
@@ -214,7 +202,7 @@ Return<void> Tuner::openLnbById(LnbId lnbId, openLnbById_cb _hidl_cb) {
     return Void();
 }
 
-sp<Frontend> Tuner::getFrontendById(uint32_t frontendId) {
+std::shared_ptr<Frontend> Tuner::getFrontendById(uint32_t frontendId) {
     ALOGV("%s", __FUNCTION__);
 
     return mFrontends[frontendId];
@@ -223,7 +211,7 @@ sp<Frontend> Tuner::getFrontendById(uint32_t frontendId) {
 Return<void> Tuner::openLnbByName(const hidl_string& /*lnbName*/, openLnbByName_cb _hidl_cb) {
     ALOGV("%s", __FUNCTION__);
 
-    sp<ILnb> lnb = new Lnb();
+    std::shared_ptr<ILnb> lnb = std::make_shared<Lnb>();
 
     _hidl_cb(Result::SUCCESS, 1234, lnb);
     return Void();
@@ -274,4 +262,4 @@ void Tuner::frontendStartTune(uint32_t frontendId) {
 }  // namespace tuner
 }  // namespace tv
 }  // namespace hardware
-}  // namespace android
+}  // namespace tuner_project

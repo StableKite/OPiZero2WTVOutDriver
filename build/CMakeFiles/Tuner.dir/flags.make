@@ -4,7 +4,7 @@
 # compile CXX with aarch64-linux-gnu-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/orangepi/TunerProject/src -I/home/orangepi/TunerProject/src/include -I/home/orangepi/TunerProject/src/tuner -I/home/orangepi/TunerProject/src/include/aidl -I/home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0 -I/home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.1
+CXX_INCLUDES = -I/home/orangepi/TunerProject/src -I/home/orangepi/TunerProject/src/include -I/home/orangepi/TunerProject/src/tuner -I/home/orangepi/TunerProject/src/include/aidl
 
 CXX_FLAGS = -std=gnu++17 -Wall -Wextra -D__LINUX__ -D__UBUNTU__ -march=armv8-a
 

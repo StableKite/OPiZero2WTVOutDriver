@@ -8,15 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/TunerProject/src/Demux.cpp" "CMakeFiles/TunerExec.dir/src/Demux.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/Demux.cpp.o.d"
-  "/home/orangepi/TunerProject/src/Descrambler.cpp" "CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/Descrambler.cpp.o.d"
-  "/home/orangepi/TunerProject/src/Dvr.cpp" "CMakeFiles/TunerExec.dir/src/Dvr.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/Dvr.cpp.o.d"
-  "/home/orangepi/TunerProject/src/Filter.cpp" "CMakeFiles/TunerExec.dir/src/Filter.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/Filter.cpp.o.d"
-  "/home/orangepi/TunerProject/src/Frontend.cpp" "CMakeFiles/TunerExec.dir/src/Frontend.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/Frontend.cpp.o.d"
-  "/home/orangepi/TunerProject/src/Lnb.cpp" "CMakeFiles/TunerExec.dir/src/Lnb.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/Lnb.cpp.o.d"
-  "/home/orangepi/TunerProject/src/TimeFilter.cpp" "CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/TimeFilter.cpp.o.d"
-  "/home/orangepi/TunerProject/src/Tuner.cpp" "CMakeFiles/TunerExec.dir/src/Tuner.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/Tuner.cpp.o.d"
-  "/home/orangepi/TunerProject/src/service.cpp" "CMakeFiles/TunerExec.dir/src/service.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/service.cpp.o.d"
   "/home/orangepi/TunerProject/src/tuner/TunerDemux.cpp" "CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/tuner/TunerDemux.cpp.o.d"
   "/home/orangepi/TunerProject/src/tuner/TunerDescrambler.cpp" "CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/tuner/TunerDescrambler.cpp.o.d"
   "/home/orangepi/TunerProject/src/tuner/TunerDvr.cpp" "CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o" "gcc" "CMakeFiles/TunerExec.dir/src/tuner/TunerDvr.cpp.o.d"

@@ -302,6 +302,10 @@ CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: /home/orangepi/TunerProje
   /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFrontendUnionSettings.h \
   /home/orangepi/TunerProject/src/include/aidlcommonsupport/NativeHandle.h \
   /home/orangepi/TunerProject/src/include/android-base/unique_fd.h \
+  /home/orangepi/TunerProject/src/include/android/binder_auto_utils.h \
+  /home/orangepi/TunerProject/src/include/android/binder_ibinder.h \
+  /home/orangepi/TunerProject/src/include/android/binder_parcel.h \
+  /home/orangepi/TunerProject/src/include/android/binder_status.h \
   /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/DemuxFilterEvent.h \
   /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/IDemux.h \
   /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/IDescrambler.h \
@@ -841,6 +845,10 @@ CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: /home/orangepi/TunerProje
 
 /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/IDescrambler.h:
 
+/home/orangepi/TunerProject/src/include/android/binder_status.h:
+
+/home/orangepi/TunerProject/src/include/android/binder_parcel.h:
+
 /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFrontendUnionSettings.h:
 
 /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFrontendStatus.h:
@@ -1068,6 +1076,8 @@ CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: /home/orangepi/TunerProje
 /usr/aarch64-linux-gnu/include/dirent.h:
 
 /usr/aarch64-linux-gnu/include/bits/types/sigset_t.h:
+
+/home/orangepi/TunerProject/src/include/android/binder_ibinder.h:
 
 /usr/aarch64-linux-gnu/include/bits/floatn-common.h:
 
@@ -1442,6 +1452,8 @@ CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: /home/orangepi/TunerProje
 /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFilterTsConfiguration.h:
 
 /usr/aarch64-linux-gnu/include/c++/13/string:
+
+/home/orangepi/TunerProject/src/include/android/binder_auto_utils.h:
 
 /usr/aarch64-linux-gnu/include/c++/13/bits/cpp_type_traits.h:
 

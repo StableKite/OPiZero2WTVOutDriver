@@ -15,9 +15,11 @@
  * Used to exclude some functions from CFI.
  */
 #if __has_attribute(no_sanitize)
+#if defined(__clang__)
 #define UTILS_VECTOR_NO_CFI __attribute__((no_sanitize("cfi")))
 #else
 #define UTILS_VECTOR_NO_CFI
+#endif
 #endif
 
 // ---------------------------------------------------------------------------
@@ -51,10 +53,8 @@ public:
     virtual                 ~Vector();
 
     /*! copy operator */
-            const Vector<TYPE>&     operator = (const Vector<TYPE>& rhs) const;
             Vector<TYPE>&           operator = (const Vector<TYPE>& rhs);
 
-            const Vector<TYPE>&     operator = (const SortedVector<TYPE>& rhs) const;
             Vector<TYPE>&           operator = (const SortedVector<TYPE>& rhs);
 
             /*
@@ -234,24 +234,12 @@ Vector<TYPE>::~Vector() {
 
 template<class TYPE> inline
 Vector<TYPE>& Vector<TYPE>::operator = (const Vector<TYPE>& rhs) {
-    VectorImpl::operator = (rhs);
-    return *this;
-}
-
-template<class TYPE> inline
-const Vector<TYPE>& Vector<TYPE>::operator = (const Vector<TYPE>& rhs) const {
     VectorImpl::operator = (static_cast<const VectorImpl&>(rhs));
     return *this;
 }
 
 template<class TYPE> inline
 Vector<TYPE>& Vector<TYPE>::operator = (const SortedVector<TYPE>& rhs) {
-    VectorImpl::operator = (static_cast<const VectorImpl&>(rhs));
-    return *this;
-}
-
-template<class TYPE> inline
-const Vector<TYPE>& Vector<TYPE>::operator = (const SortedVector<TYPE>& rhs) const {
     VectorImpl::operator = (rhs);
     return *this;
 }

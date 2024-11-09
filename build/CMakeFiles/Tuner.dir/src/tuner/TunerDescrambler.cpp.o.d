@@ -371,6 +371,16 @@ CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: \
  /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFrontendStatusAtsc3PlpInfo.h \
  /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/ITunerTimeFilter.h \
  /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerDemuxPid.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/ITunerDemux.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/ITunerFilter.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerDemuxPid.h \
+ /home/orangepi/TunerProject/src/tuner/TunerFilter.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerDemuxIpAddress.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFilterConfiguration.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFilterSettings.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/BnTunerFilter.h \
+ /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/ITunerFilterCallback.h \
+ /home/orangepi/TunerProject/src/include/aidlcommonsupport/NativeHandle.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/ITuner.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/IDemux.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/IDvr.h \
@@ -401,14 +411,6 @@ CMakeFiles/Tuner.dir/src/tuner/TunerDescrambler.cpp.o: \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/IFrontendCallback.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/ILnb.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/ILnbCallback.h \
- /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerDemuxPid.h \
- /home/orangepi/TunerProject/src/tuner/TunerFilter.h \
- /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerDemuxIpAddress.h \
- /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFilterConfiguration.h \
- /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/TunerFilterSettings.h \
- /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/BnTunerFilter.h \
- /home/orangepi/TunerProject/src/include/aidl/android/media/tv/tuner/ITunerFilterCallback.h \
- /home/orangepi/TunerProject/src/include/aidlcommonsupport/NativeHandle.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.1/IFilter.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.0/Result.h \
  /home/orangepi/TunerProject/src/include/android/hardware/tv/tuner/1.1/IFilterCallback.h \

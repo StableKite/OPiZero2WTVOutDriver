@@ -30,6 +30,7 @@
 
 // no requirements on types not used in scatter/gather
 // no requirements on other libraries
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wpadded"
 #include <cutils/native_handle.h>
@@ -38,6 +39,13 @@
 #include <utils/RefBase.h>
 #include <utils/StrongPointer.h>
 #pragma clang diagnostic pop
+#else
+#include <cutils/native_handle.h>
+#include <hidl/Status.h>
+#include <utils/Errors.h>
+#include <utils/RefBase.h>
+#include <utils/StrongPointer.h>
+#endif
 
 namespace android {
 

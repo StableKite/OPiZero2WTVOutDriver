@@ -46,7 +46,11 @@ class IShellCallback;
  * (method calls, property get and set) is down through a low-level
  * protocol implemented on top of the transact() API.
  */
+#if defined(__clang__)
 class [[clang::lto_visibility_public]] IBinder : public virtual RefBase
+#else
+class IBinder : public virtual RefBase
+#endif
 {
 public:
     enum {

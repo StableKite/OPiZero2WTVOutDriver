@@ -16005,8 +16005,10 @@ static inline bool operator!=(const ::android::hardware::tv::tuner::V1_0::DemuxC
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Result, 7> hidl_enum_values<::android::hardware::tv::tuner::V1_0::Result> = {
     ::android::hardware::tv::tuner::V1_0::Result::SUCCESS,
     ::android::hardware::tv::tuner::V1_0::Result::UNAVAILABLE,
@@ -16016,7 +16018,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Res
     ::android::hardware::tv::tuner::V1_0::Result::OUT_OF_MEMORY,
     ::android::hardware::tv::tuner::V1_0::Result::UNKNOWN_ERROR,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16024,8 +16028,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Res
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendType, 10> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendType> = {
     ::android::hardware::tv::tuner::V1_0::FrontendType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendType::ANALOG,
@@ -16038,7 +16044,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendType::ISDBS3,
     ::android::hardware::tv::tuner::V1_0::FrontendType::ISDBT,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16046,8 +16054,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendInnerFec, 37> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendInnerFec> = {
     ::android::hardware::tv::tuner::V1_0::FrontendInnerFec::FEC_UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendInnerFec::AUTO,
@@ -16087,7 +16097,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendInnerFec::FEC_32_45,
     ::android::hardware::tv::tuner::V1_0::FrontendInnerFec::FEC_77_90,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16095,15 +16107,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAtscModulation, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAtscModulation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAtscModulation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAtscModulation::AUTO,
     ::android::hardware::tv::tuner::V1_0::FrontendAtscModulation::MOD_8VSB,
     ::android::hardware::tv::tuner::V1_0::FrontendAtscModulation::MOD_16VSB,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16111,8 +16127,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAtsc3Modulation, 8> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAtsc3Modulation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Modulation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Modulation::AUTO,
@@ -16123,7 +16141,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Modulation::MOD_1024QAM,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Modulation::MOD_4096QAM,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16131,8 +16151,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAtsc3Bandwidth, 5> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAtsc3Bandwidth> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Bandwidth::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Bandwidth::AUTO,
@@ -16140,7 +16162,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Bandwidth::BANDWIDTH_7MHZ,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Bandwidth::BANDWIDTH_8MHZ,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16148,15 +16172,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAtsc3TimeInterleaveMode, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAtsc3TimeInterleaveMode> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3TimeInterleaveMode::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3TimeInterleaveMode::AUTO,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3TimeInterleaveMode::CTI,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3TimeInterleaveMode::HTI,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16164,8 +16192,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAtsc3CodeRate, 14> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAtsc3CodeRate> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3CodeRate::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3CodeRate::AUTO,
@@ -16182,7 +16212,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3CodeRate::CODERATE_12_15,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3CodeRate::CODERATE_13_15,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16190,8 +16222,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAtsc3Fec, 8> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAtsc3Fec> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Fec::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Fec::AUTO,
@@ -16202,7 +16236,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Fec::LDPC_16K,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3Fec::LDPC_64K,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16210,14 +16246,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAtsc3DemodOutputFormat, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAtsc3DemodOutputFormat> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3DemodOutputFormat::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3DemodOutputFormat::ATSC3_LINKLAYER_PACKET,
     ::android::hardware::tv::tuner::V1_0::FrontendAtsc3DemodOutputFormat::BASEBAND_PACKET,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16225,8 +16265,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbsModulation, 15> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbsModulation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsModulation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsModulation::AUTO,
@@ -16244,7 +16286,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsModulation::MOD_256APSK,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsModulation::MOD_RESERVED,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16252,8 +16296,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbsRolloff, 7> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbsRolloff> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsRolloff::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsRolloff::ROLLOFF_0_35,
@@ -16263,7 +16309,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsRolloff::ROLLOFF_0_10,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsRolloff::ROLLOFF_0_5,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16271,15 +16319,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbsPilot, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbsPilot> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsPilot::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsPilot::ON,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsPilot::OFF,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsPilot::AUTO,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16287,15 +16339,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbsStandard, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbsStandard> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsStandard::AUTO,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsStandard::S,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsStandard::S2,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsStandard::S2X,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16303,14 +16359,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbsVcmMode, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbsVcmMode> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsVcmMode::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsVcmMode::AUTO,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbsVcmMode::MANUAL,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16318,8 +16378,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbcModulation, 7> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbcModulation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcModulation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcModulation::AUTO,
@@ -16329,7 +16391,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcModulation::MOD_128QAM,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcModulation::MOD_256QAM,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16337,14 +16401,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbcOuterFec, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbcOuterFec> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcOuterFec::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcOuterFec::OUTER_FEC_NONE,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcOuterFec::OUTER_FEC_RS,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16352,15 +16420,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbcAnnex, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbcAnnex> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcAnnex::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcAnnex::A,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcAnnex::B,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcAnnex::C,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16368,14 +16440,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbcSpectralInversion, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbcSpectralInversion> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcSpectralInversion::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcSpectralInversion::NORMAL,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbcSpectralInversion::INVERTED,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16383,8 +16459,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtBandwidth, 8> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtBandwidth> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtBandwidth::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtBandwidth::AUTO,
@@ -16395,7 +16473,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtBandwidth::BANDWIDTH_1_7MHZ,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtBandwidth::BANDWIDTH_10MHZ,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16403,8 +16483,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtConstellation, 6> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtConstellation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtConstellation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtConstellation::AUTO,
@@ -16413,7 +16495,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtConstellation::CONSTELLATION_64QAM,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtConstellation::CONSTELLATION_256QAM,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16421,8 +16505,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtHierarchy, 10> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtHierarchy> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtHierarchy::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtHierarchy::AUTO,
@@ -16435,7 +16521,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtHierarchy::HIERARCHY_2_INDEPTH,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtHierarchy::HIERARCHY_4_INDEPTH,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16443,8 +16531,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtCoderate, 11> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtCoderate> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtCoderate::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtCoderate::AUTO,
@@ -16458,7 +16548,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtCoderate::CODERATE_6_7,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtCoderate::CODERATE_8_9,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16466,8 +16558,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtGuardInterval, 9> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtGuardInterval> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtGuardInterval::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtGuardInterval::AUTO,
@@ -16479,7 +16573,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtGuardInterval::INTERVAL_19_128,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtGuardInterval::INTERVAL_19_256,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16487,8 +16583,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtTransmissionMode, 8> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtTransmissionMode> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtTransmissionMode::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtTransmissionMode::AUTO,
@@ -16499,7 +16597,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtTransmissionMode::MODE_16K,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtTransmissionMode::MODE_32K,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16507,14 +16607,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtPlpMode, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtPlpMode> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtPlpMode::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtPlpMode::AUTO,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtPlpMode::MANUAL,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16522,14 +16626,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendDvbtStandard, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendDvbtStandard> = {
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtStandard::AUTO,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtStandard::T,
     ::android::hardware::tv::tuner::V1_0::FrontendDvbtStandard::T2,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16537,13 +16645,17 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbsRolloff, 2> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbsRolloff> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsRolloff::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsRolloff::ROLLOFF_0_35,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16551,8 +16663,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbsModulation, 5> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbsModulation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsModulation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsModulation::AUTO,
@@ -16560,7 +16674,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsModulation::MOD_QPSK,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsModulation::MOD_TC8PSK,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16568,8 +16684,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbsCoderate, 7> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbsCoderate> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsCoderate::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsCoderate::AUTO,
@@ -16579,7 +16697,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsCoderate::CODERATE_5_6,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsCoderate::CODERATE_7_8,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16587,13 +16707,17 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbsStreamIdType, 2> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbsStreamIdType> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsStreamIdType::STREAM_ID,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbsStreamIdType::RELATIVE_STREAM_NUMBER,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16601,13 +16725,17 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Rolloff, 2> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Rolloff> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Rolloff::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Rolloff::ROLLOFF_0_03,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16615,8 +16743,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Modulation, 7> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Modulation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Modulation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Modulation::AUTO,
@@ -16626,7 +16756,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Modulation::MOD_16APSK,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Modulation::MOD_32APSK,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16634,8 +16766,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Coderate, 13> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Coderate> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Coderate::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Coderate::AUTO,
@@ -16651,7 +16785,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Coderate::CODERATE_7_8,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbs3Coderate::CODERATE_9_10,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16659,8 +16795,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbtMode, 5> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbtMode> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtMode::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtMode::AUTO,
@@ -16668,7 +16806,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtMode::MODE_2,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtMode::MODE_3,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16676,8 +16816,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbtBandwidth, 5> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbtBandwidth> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtBandwidth::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtBandwidth::AUTO,
@@ -16685,7 +16827,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtBandwidth::BANDWIDTH_7MHZ,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtBandwidth::BANDWIDTH_6MHZ,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16693,8 +16837,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendIsdbtModulation, 6> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendIsdbtModulation> = {
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtModulation::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtModulation::AUTO,
@@ -16703,7 +16849,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtModulation::MOD_16QAM,
     ::android::hardware::tv::tuner::V1_0::FrontendIsdbtModulation::MOD_64QAM,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16711,8 +16859,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAnalogType, 9> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAnalogType> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogType::AUTO,
@@ -16724,7 +16874,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogType::NTSC_443,
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogType::SECAM,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16732,8 +16884,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendAnalogSifStandard, 19> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendAnalogSifStandard> = {
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogSifStandard::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogSifStandard::AUTO,
@@ -16755,7 +16909,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogSifStandard::L_NICAM,
     ::android::hardware::tv::tuner::V1_0::FrontendAnalogSifStandard::L_PRIME,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16763,14 +16919,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendScanType, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendScanType> = {
     ::android::hardware::tv::tuner::V1_0::FrontendScanType::SCAN_UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::FrontendScanType::SCAN_AUTO,
     ::android::hardware::tv::tuner::V1_0::FrontendScanType::SCAN_BLIND,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16778,8 +16938,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendScanMessageType, 12> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendScanMessageType> = {
     ::android::hardware::tv::tuner::V1_0::FrontendScanMessageType::LOCKED,
     ::android::hardware::tv::tuner::V1_0::FrontendScanMessageType::END,
@@ -16794,7 +16956,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendScanMessageType::STANDARD,
     ::android::hardware::tv::tuner::V1_0::FrontendScanMessageType::ATSC3_PLP_INFO,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16802,14 +16966,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendEventType, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendEventType> = {
     ::android::hardware::tv::tuner::V1_0::FrontendEventType::LOCKED,
     ::android::hardware::tv::tuner::V1_0::FrontendEventType::NO_SIGNAL,
     ::android::hardware::tv::tuner::V1_0::FrontendEventType::LOST_LOCK,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16817,8 +16985,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::FrontendStatusType, 22> hidl_enum_values<::android::hardware::tv::tuner::V1_0::FrontendStatusType> = {
     ::android::hardware::tv::tuner::V1_0::FrontendStatusType::DEMOD_LOCK,
     ::android::hardware::tv::tuner::V1_0::FrontendStatusType::SNR,
@@ -16843,7 +17013,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
     ::android::hardware::tv::tuner::V1_0::FrontendStatusType::RF_LOCK,
     ::android::hardware::tv::tuner::V1_0::FrontendStatusType::ATSC3_PLP_INFO,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16851,8 +17023,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Fro
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::LnbVoltage, 9> hidl_enum_values<::android::hardware::tv::tuner::V1_0::LnbVoltage> = {
     ::android::hardware::tv::tuner::V1_0::LnbVoltage::NONE,
     ::android::hardware::tv::tuner::V1_0::LnbVoltage::VOLTAGE_5V,
@@ -16864,7 +17038,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Lnb
     ::android::hardware::tv::tuner::V1_0::LnbVoltage::VOLTAGE_18V,
     ::android::hardware::tv::tuner::V1_0::LnbVoltage::VOLTAGE_19V,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16872,13 +17048,17 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Lnb
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::LnbTone, 2> hidl_enum_values<::android::hardware::tv::tuner::V1_0::LnbTone> = {
     ::android::hardware::tv::tuner::V1_0::LnbTone::NONE,
     ::android::hardware::tv::tuner::V1_0::LnbTone::CONTINUOUS,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16886,14 +17066,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Lnb
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::LnbPosition, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::LnbPosition> = {
     ::android::hardware::tv::tuner::V1_0::LnbPosition::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::LnbPosition::POSITION_A,
     ::android::hardware::tv::tuner::V1_0::LnbPosition::POSITION_B,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16901,15 +17085,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Lnb
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::LnbEventType, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::LnbEventType> = {
     ::android::hardware::tv::tuner::V1_0::LnbEventType::DISEQC_RX_OVERFLOW,
     ::android::hardware::tv::tuner::V1_0::LnbEventType::DISEQC_RX_TIMEOUT,
     ::android::hardware::tv::tuner::V1_0::LnbEventType::DISEQC_RX_PARITY_ERROR,
     ::android::hardware::tv::tuner::V1_0::LnbEventType::LNB_OVERLOAD,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16917,8 +17105,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Lnb
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxFilterMainType, 5> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxFilterMainType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxFilterMainType::TS,
     ::android::hardware::tv::tuner::V1_0::DemuxFilterMainType::MMTP,
@@ -16926,7 +17116,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
     ::android::hardware::tv::tuner::V1_0::DemuxFilterMainType::TLV,
     ::android::hardware::tv::tuner::V1_0::DemuxFilterMainType::ALP,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16934,8 +17126,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxTsFilterType, 9> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxTsFilterType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxTsFilterType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::DemuxTsFilterType::SECTION,
@@ -16947,7 +17141,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
     ::android::hardware::tv::tuner::V1_0::DemuxTsFilterType::RECORD,
     ::android::hardware::tv::tuner::V1_0::DemuxTsFilterType::TEMI,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16955,8 +17151,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxMmtpFilterType, 8> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxMmtpFilterType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxMmtpFilterType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::DemuxMmtpFilterType::SECTION,
@@ -16967,7 +17165,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
     ::android::hardware::tv::tuner::V1_0::DemuxMmtpFilterType::RECORD,
     ::android::hardware::tv::tuner::V1_0::DemuxMmtpFilterType::DOWNLOAD,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16975,8 +17175,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxIpFilterType, 6> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxIpFilterType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxIpFilterType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::DemuxIpFilterType::SECTION,
@@ -16985,7 +17187,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
     ::android::hardware::tv::tuner::V1_0::DemuxIpFilterType::IP,
     ::android::hardware::tv::tuner::V1_0::DemuxIpFilterType::PAYLOAD_THROUGH,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -16993,15 +17197,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxTlvFilterType, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxTlvFilterType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxTlvFilterType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::DemuxTlvFilterType::SECTION,
     ::android::hardware::tv::tuner::V1_0::DemuxTlvFilterType::TLV,
     ::android::hardware::tv::tuner::V1_0::DemuxTlvFilterType::PAYLOAD_THROUGH,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17009,15 +17217,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxAlpFilterType, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxAlpFilterType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxAlpFilterType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::DemuxAlpFilterType::SECTION,
     ::android::hardware::tv::tuner::V1_0::DemuxAlpFilterType::PTP,
     ::android::hardware::tv::tuner::V1_0::DemuxAlpFilterType::PAYLOAD_THROUGH,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17025,15 +17237,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Constant, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::Constant> = {
     ::android::hardware::tv::tuner::V1_0::Constant::INVALID_TS_PID,
     ::android::hardware::tv::tuner::V1_0::Constant::INVALID_STREAM_ID,
     ::android::hardware::tv::tuner::V1_0::Constant::INVALID_FILTER_ID,
     ::android::hardware::tv::tuner::V1_0::Constant::INVALID_AV_SYNC_ID,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17041,15 +17257,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Con
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxFilterStatus, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxFilterStatus> = {
     ::android::hardware::tv::tuner::V1_0::DemuxFilterStatus::DATA_READY,
     ::android::hardware::tv::tuner::V1_0::DemuxFilterStatus::LOW_WATER,
     ::android::hardware::tv::tuner::V1_0::DemuxFilterStatus::HIGH_WATER,
     ::android::hardware::tv::tuner::V1_0::DemuxFilterStatus::OVERFLOW,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17057,8 +17277,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxTsIndex, 13> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxTsIndex> = {
     ::android::hardware::tv::tuner::V1_0::DemuxTsIndex::FIRST_PACKET,
     ::android::hardware::tv::tuner::V1_0::DemuxTsIndex::PAYLOAD_UNIT_START_INDICATOR,
@@ -17074,7 +17296,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
     ::android::hardware::tv::tuner::V1_0::DemuxTsIndex::PRIVATE_DATA,
     ::android::hardware::tv::tuner::V1_0::DemuxTsIndex::ADAPTATION_EXTENSION_FLAG,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17082,15 +17306,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxScIndex, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxScIndex> = {
     ::android::hardware::tv::tuner::V1_0::DemuxScIndex::I_FRAME,
     ::android::hardware::tv::tuner::V1_0::DemuxScIndex::P_FRAME,
     ::android::hardware::tv::tuner::V1_0::DemuxScIndex::B_FRAME,
     ::android::hardware::tv::tuner::V1_0::DemuxScIndex::SEQUENCE,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17098,8 +17326,10 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxScHevcIndex, 8> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxScHevcIndex> = {
     ::android::hardware::tv::tuner::V1_0::DemuxScHevcIndex::SPS,
     ::android::hardware::tv::tuner::V1_0::DemuxScHevcIndex::AUD,
@@ -17110,7 +17340,9 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
     ::android::hardware::tv::tuner::V1_0::DemuxScHevcIndex::SLICE_IDR_N_LP,
     ::android::hardware::tv::tuner::V1_0::DemuxScHevcIndex::SLICE_TRAIL_CRA,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17118,14 +17350,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxRecordScIndexType, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxRecordScIndexType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxRecordScIndexType::NONE,
     ::android::hardware::tv::tuner::V1_0::DemuxRecordScIndexType::SC,
     ::android::hardware::tv::tuner::V1_0::DemuxRecordScIndexType::SC_HEVC,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17133,14 +17369,18 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxAlpLengthType, 3> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxAlpLengthType> = {
     ::android::hardware::tv::tuner::V1_0::DemuxAlpLengthType::UNDEFINED,
     ::android::hardware::tv::tuner::V1_0::DemuxAlpLengthType::WITHOUT_ADDITIONAL_HEADER,
     ::android::hardware::tv::tuner::V1_0::DemuxAlpLengthType::WITH_ADDITIONAL_HEADER,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17148,13 +17388,17 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DemuxQueueNotifyBits, 2> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DemuxQueueNotifyBits> = {
     ::android::hardware::tv::tuner::V1_0::DemuxQueueNotifyBits::DATA_READY,
     ::android::hardware::tv::tuner::V1_0::DemuxQueueNotifyBits::DATA_CONSUMED,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17162,15 +17406,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dem
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DataFormat, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DataFormat> = {
     ::android::hardware::tv::tuner::V1_0::DataFormat::TS,
     ::android::hardware::tv::tuner::V1_0::DataFormat::PES,
     ::android::hardware::tv::tuner::V1_0::DataFormat::ES,
     ::android::hardware::tv::tuner::V1_0::DataFormat::SHV_TLV,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17178,15 +17426,19 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Dat
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::PlaybackStatus, 4> hidl_enum_values<::android::hardware::tv::tuner::V1_0::PlaybackStatus> = {
     ::android::hardware::tv::tuner::V1_0::PlaybackStatus::SPACE_EMPTY,
     ::android::hardware::tv::tuner::V1_0::PlaybackStatus::SPACE_ALMOST_EMPTY,
     ::android::hardware::tv::tuner::V1_0::PlaybackStatus::SPACE_ALMOST_FULL,
     ::android::hardware::tv::tuner::V1_0::PlaybackStatus::SPACE_FULL,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android
@@ -17194,13 +17446,17 @@ template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::Pla
 namespace android {
 namespace hardware {
 namespace details {
+#if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
+#endif
 template<> inline constexpr std::array<::android::hardware::tv::tuner::V1_0::DvrType, 2> hidl_enum_values<::android::hardware::tv::tuner::V1_0::DvrType> = {
     ::android::hardware::tv::tuner::V1_0::DvrType::RECORD,
     ::android::hardware::tv::tuner::V1_0::DvrType::PLAYBACK,
 };
+#if defined(__clang__)
 #pragma clang diagnostic pop
+#endif
 }  // namespace details
 }  // namespace hardware
 }  // namespace android

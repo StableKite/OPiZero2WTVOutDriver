@@ -1,25 +1,12 @@
-/**
- * Copyright (c) 2020, The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 #define LOG_TAG "TunerService"
 
-#include <android/binder_manager.h>
-#include <android/content/pm/IPackageManagerNative.h>
-#include <binder/IServiceManager.h>
-#include <utils/Log.h>
+#include <iostream>
+
+#define ALOGV(msg) std::cout << msg << std::endl
+#define ALOGW(msg) std::cerr << msg << std::endl
+#define ALOGE(msg) std::cerr << msg << std::endl
+#define ALOGD(msg) std::cout << msg << std::endl
+
 #include "TunerService.h"
 #include "TunerFrontend.h"
 #include "TunerLnb.h"
@@ -49,16 +36,16 @@ using ::android::hardware::tv::tuner::V1_0::LnbId;
 using ::android::hardware::tv::tuner::V1_0::Result;
 using ::android::hardware::tv::tuner::V1_1::FrontendDtmbCapabilities;
 
-namespace android {
+namespace tuner_project {
 
 TunerService::TunerService() {
-    sp<IServiceManager> serviceMgr = defaultServiceManager();
-    sp<content::pm::IPackageManagerNative> packageMgr;
+    std::shared_ptr<IServiceManager> serviceMgr = defaultServiceManager();
+    std::shared_ptr<content::pm::IPackageManagerNative> packageMgr;
     if (serviceMgr.get() == nullptr) {
-        ALOGE("%s: Cannot find service manager", __func__);
+        ALOGE(__func__ << ": Cannot find service manager");
         return;
     } else {
-        sp<IBinder> binder = serviceMgr->waitForService(String16("package_native"));
+        std::shared_ptr<IBinder> binder = serviceMgr->waitForService(String16("package_native"));
         packageMgr = interface_cast<content::pm::IPackageManagerNative>(binder);
     }
 
@@ -66,8 +53,7 @@ TunerService::TunerService() {
     if (packageMgr != nullptr) {
         binder::Status status = packageMgr->hasSystemFeature(FEATURE_TUNER, 0, &hasFeature);
         if (!status.isOk()) {
-            ALOGE("%s: hasSystemFeature failed: %s",
-                    __func__, status.exceptionMessage().c_str());
+            ALOGE(__func__ << ": hasSystemFeature failed: " << status.exceptionMessage().c_str());
             return;
         }
         if (!hasFeature) {
@@ -75,7 +61,7 @@ TunerService::TunerService() {
             return;
         }
     } else {
-        ALOGD("%s: Cannot find package manager.", __func__);
+        ALOGD(__func__ << ": Cannot find package manager.");
         return;
     }
 
@@ -126,13 +112,13 @@ Status TunerService::openDemux(
     }
     Result res;
     uint32_t id;
-    sp<IDemux> demuxSp = nullptr;
+    std::shared_ptr<IDemux> demuxSp = nullptr;
     shared_ptr<ITunerDemux> tunerDemux = nullptr;
-    mTuner->openDemux([&](Result r, uint32_t demuxId, const sp<IDemux>& demux) {
+    mTuner->openDemux([&](Result r, uint32_t demuxId, const std::shared_ptr<IDemux>& demux) {
         demuxSp = demux;
         id = demuxId;
         res = r;
-        ALOGD("open demux, id = %d", demuxId);
+        ALOGD("open demux, id = " << demuxId);
     });
     if (res == Result::SUCCESS) {
         tunerDemux = ::ndk::SharedRefBase::make<TunerDemux>(demuxSp, id);
@@ -140,7 +126,7 @@ Status TunerService::openDemux(
         return Status::ok();
     }
 
-    ALOGW("open demux failed, res = %d", res);
+    ALOGW("open demux failed, res = " << res);
     return Status::fromServiceSpecificError(static_cast<int32_t>(res));
 }
 
@@ -160,7 +146,7 @@ Status TunerService::getDemuxCaps(TunerDemuxCapabilities* _aidl_return) {
         return Status::ok();
     }
 
-    ALOGW("Get demux caps failed, res = %d", res);
+    ALOGW("Get demux caps failed, res = " << res);
     return Status::fromServiceSpecificError(static_cast<int32_t>(res));
 }
 
@@ -238,9 +224,9 @@ Status TunerService::openFrontend(
     }
 
     Result status;
-    sp<IFrontend> frontend;
+    std::shared_ptr<IFrontend> frontend;
     int id = getResourceIdFromHandle(frontendHandle, FRONTEND);
-    mTuner->openFrontendById(id, [&](Result result, const sp<IFrontend>& fe) {
+    mTuner->openFrontendById(id, [&](Result result, const std::shared_ptr<IFrontend>& fe) {
         frontend = fe;
         status = result;
     });
@@ -258,9 +244,9 @@ Status TunerService::openLnb(int lnbHandle, shared_ptr<ITunerLnb>* _aidl_return)
     }
 
     Result status;
-    sp<ILnb> lnb;
+    std::shared_ptr<ILnb> lnb;
     int id = getResourceIdFromHandle(lnbHandle, LNB);
-    mTuner->openLnbById(id, [&](Result result, const sp<ILnb>& lnbSp){
+    mTuner->openLnbById(id, [&](Result result, const std::shared_ptr<ILnb>& lnbSp){
         lnb = lnbSp;
         status = result;
     });
@@ -280,8 +266,8 @@ Status TunerService::openLnbByName(const string& lnbName, shared_ptr<ITunerLnb>*
 
     int lnbId;
     Result status;
-    sp<ILnb> lnb;
-    mTuner->openLnbByName(lnbName, [&](Result r, LnbId id, const sp<ILnb>& lnbSp) {
+    std::shared_ptr<ILnb> lnb;
+    mTuner->openLnbByName(lnbName, [&](Result r, LnbId id, const std::shared_ptr<ILnb>& lnbSp) {
         status = r;
         lnb = lnbSp;
         lnbId = (int)id;
@@ -302,9 +288,9 @@ Status TunerService::openDescrambler(int32_t /*descramblerHandle*/,
     }
 
     Result status;
-    sp<IDescrambler> descrambler;
+    std::shared_ptr<IDescrambler> descrambler;
     //int id = getResourceIdFromHandle(descramblerHandle, DESCRAMBLER);
-    mTuner->openDescrambler([&](Result r, const sp<IDescrambler>& descramblerSp) {
+    mTuner->openDescrambler([&](Result r, const std::shared_ptr<IDescrambler>& descramblerSp) {
         status = r;
         descrambler = descramblerSp;
     });
@@ -566,4 +552,4 @@ TunerFrontendInfo TunerService::convertToAidlFrontendInfo(FrontendInfo halInfo) 
     info.caps = caps;
     return info;
 }
-} // namespace android
+} // namespace tuner_project
