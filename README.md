@@ -1,4 +1,4 @@
-# Сборка проекта
+# Building
 
 ```bash
 cd ./build
